@@ -1,12 +1,14 @@
 
 import './App.css';
-import Header from './Components/Header/Header';
+
+import Adminroute from './Routes/Adminroute';
 
 
 function App() {
   return (
     <div >
-   <Header/>
+  
+   <Adminroute/>
    
     </div>
   );
