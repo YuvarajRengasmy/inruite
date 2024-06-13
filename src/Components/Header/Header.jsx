@@ -36,15 +36,15 @@ export const Header = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="/Industries"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Industries <IoIosArrowDown />
+                  Industries <span><IoIosArrowDown /></span>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Civil & Construction</a></li>
+                  <li><a className="dropdown-item" href="/Civil">Civil & Construction</a></li>
                   <li><a className="dropdown-item" href="#">Engineering</a></li>
                   <li><a className="dropdown-item" href="#">Hospitality</a></li>
                   <li><a className="dropdown-item" href="#">Energy & Resources</a></li>
@@ -79,7 +79,7 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="#">Job fair</a></li>
                   <li><a className="dropdown-item" href="#">campus recuritment </a></li>
                   <li><a className="dropdown-item" href="#">techincal trade test</a></li>
-                  <li><a className="dropdown-item" href="#">ticketing and emmigration</a></li>
+                  <li><a className="dropdown-item" href="#">ticketing and</a></li>
                 </ul>
               </li>
               <li className="nav-item">
