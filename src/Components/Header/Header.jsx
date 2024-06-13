@@ -1,11 +1,11 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import { IoIosArrowDown } from "react-icons/io";
 export const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-white ">
-        <div className="container-fluid">
+      <nav className="navbar navbar-expand-lg  ">
+        <div className="container-fluid ">
           <a className="navbar-brand " href="#">
             <img
               src="https://www.inrecruit.in/images/logo/fynd-career.png"
@@ -26,22 +26,22 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
+            <ul className="navbar-nav mx-auto  mb-2 mb-lg-0" style={{fontSize:'16px',color:"#fe5722",fontVariant:'all-small-caps'}}>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/">Home</a>
+                <a className="nav-link"  href="/">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/About">About</a>
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link "
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Industries
+                  Industries <IoIosArrowDown />
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Home</a></li>
@@ -51,13 +51,13 @@ export const Header = () => {
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle"
+                  className="nav-link "
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Services
+                  Services <IoIosArrowDown />
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="#">Home</a></li>

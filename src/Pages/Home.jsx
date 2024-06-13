@@ -7,9 +7,9 @@ export const Home = () => {
   return (
     <>
       <div >
-        <nav className="navbar navbar-top navbar-expand-lg">
+        <div className=" ">
           <Header />
-        </nav>
+        </div>
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -18,15 +18,15 @@ export const Home = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100" alt="IMAGE1"/>
+        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100" alt="IMAGE1" style={{height:'70vh'}}/>
         <div className="carousel-caption">
-          <h5 className="text-capitalize">digital transformation</h5>
-          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <h5 className="text-capitalize  text-center">digital transformation</h5>
+          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://assets.entrepreneur.com/content/3x2/2000/1703169874-hiring-interview-process-g-1434331704.jpg" className="d-block w-100" alt="image2"/>
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/1703169874-hiring-interview-process-g-1434331704.jpg" className="d-block w-100" alt="image2 " style={{height:'70vh'}}/>
         <div className="carousel-caption">
           <h5 className="text-capitalize">digital transformation</h5>
           <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
@@ -34,7 +34,7 @@ export const Home = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://images.ctfassets.net/p03bi75xct27/47Fx29nT0wcVxPp5jBreAL/175dda14f19038e1e9e0e4c07c79ad7f/Two-colleagues-work-on-their-social-media-recruiting-strategy..jpg?q=80&fm=webp&w=2048" className="d-block w-100" alt="image3"/>
+        <img src="https://images.ctfassets.net/p03bi75xct27/47Fx29nT0wcVxPp5jBreAL/175dda14f19038e1e9e0e4c07c79ad7f/Two-colleagues-work-on-their-social-media-recruiting-strategy..jpg?q=80&fm=webp&w=2048" className="d-block w-100" alt="image3" style={{height:'70vh'}}/>
         <div className="carousel-caption">
           <h5 className="text-capitalize">digital transformation</h5>
           <p className="text-capitalize">Reinventing Companies by delivering excellence</p>

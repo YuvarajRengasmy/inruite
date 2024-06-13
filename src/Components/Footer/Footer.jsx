@@ -12,7 +12,7 @@ export const Footer = () => {
   return (
     <div>
     <div className="container my-5">
-      <div className="row">
+      <div className="row g-3">
         <div className="col-12 col-sm-6 col-md-4">
           <div className="footer-logo">
             <a href="#"><img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="" className="img-fluid navbar-brand" /></a>
@@ -87,7 +87,7 @@ export const Footer = () => {
 
         </div>
         </div>
-        <div className="row">
+        <div className="row g-5">
           <div className="col-12 col-md-4 col-sm-6">
           <div className="footer-icon d-flex flex-row align-items-center justify-content-around">
             <div className="facebook-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaFacebookF /></div>
