@@ -74,12 +74,12 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
                   <li><a className="dropdown-item" href="#">executive search</a></li>
                   <li><a className="dropdown-item" href="#">contact hiring</a></li>
-                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
-                  <li><a className="dropdown-item" href="#">executive search</a></li>
-                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
-                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
-                  <li><a className="dropdown-item" href="#">executive search</a></li>
-                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
+                  <li><a className="dropdown-item" href="#">Permanent staffing</a></li>
+                  <li><a className="dropdown-item" href="#">payroll Management</a></li>
+                  <li><a className="dropdown-item" href="#">Job fair</a></li>
+                  <li><a className="dropdown-item" href="#">campus recuritment </a></li>
+                  <li><a className="dropdown-item" href="#">techincal trade test</a></li>
+                  <li><a className="dropdown-item" href="#">ticketing and emmigration</a></li>
                 </ul>
               </li>
               <li className="nav-item">
