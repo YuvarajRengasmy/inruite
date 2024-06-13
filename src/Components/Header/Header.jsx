@@ -36,15 +36,15 @@ export const Header = () => {
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="/Industries"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Industries <IoIosArrowDown />
+                  Industries <span><IoIosArrowDown /></span>
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Civil & Construction</a></li>
+                  <li><a className="dropdown-item" href="/Civil">Civil & Construction</a></li>
                   <li><a className="dropdown-item" href="#">Engineering</a></li>
                   <li><a className="dropdown-item" href="#">Hospitality</a></li>
                   <li><a className="dropdown-item" href="#">Energy & Resources</a></li>
@@ -74,12 +74,12 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
                   <li><a className="dropdown-item" href="#">executive search</a></li>
                   <li><a className="dropdown-item" href="#">contact hiring</a></li>
-                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
-                  <li><a className="dropdown-item" href="#">executive search</a></li>
-                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
-                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
-                  <li><a className="dropdown-item" href="#">executive search</a></li>
-                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
+                  <li><a className="dropdown-item" href="#">Permanent staffing</a></li>
+                  <li><a className="dropdown-item" href="#">payroll Management</a></li>
+                  <li><a className="dropdown-item" href="#">Job fair</a></li>
+                  <li><a className="dropdown-item" href="#">campus recuritment </a></li>
+                  <li><a className="dropdown-item" href="#">techincal trade test</a></li>
+                  <li><a className="dropdown-item" href="#">ticketing and</a></li>
                 </ul>
               </li>
               <li className="nav-item">
@@ -95,7 +95,7 @@ export const Header = () => {
                 <a className="nav-link" aria-current="page" href="#">Blogs</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" aria-current="page" href="/contact">Contact Us</a>
+                <a className="nav-link" aria-current="page" href="#">Contact Us</a>
               </li>
             </ul>
           </div>
