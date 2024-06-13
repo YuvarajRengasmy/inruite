@@ -2,6 +2,7 @@ import React from 'react'
 import Header from '../Components/Header/Header';
 import './Home.css'
 import { IoBarChartSharp } from "react-icons/io5";
+import Footer from '../Components/Footer/Footer'
 export const Home = () => {
   return (
     <>
@@ -317,12 +318,12 @@ export const Home = () => {
   <div className="container my-5">
     <div className="row g-3">
       <div className="col-md-6">
-        <div className="card rounded-0 border-0  hover-card  h-100">
-          <img src="https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg" alt="cardimage" className="  img-fluid h-100 p-0" />
+        <div className="card rounded-0 border-0  hover-card  h-100" style={{backgroundImage:`url(${"https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg"})`,backgroundColor:'rgba(0,0,0,0.6)', backgroundBlendMode:'multiply'}}>
+        
         
         <div className="card-img-overlay align-self-center">
-        <h5 className=" text-capitalize fw-bold h3 text-center">How can we build your business?</h5>
-        <p className="lh-base" style={{textAlign:'justify'}}>
+        <h5 className=" text-capitalize fw-bold h3 text-center text-white" >How can we build your business?</h5>
+        <p className="lh-base text-white " style={{textAlign:'justify'}}>
         We provide expert opinions, analysis, and strategies to organizations to prevent problems and improve performance.
         </p>
         <div className="text-center">
@@ -352,9 +353,61 @@ export const Home = () => {
     </div>
   </div>
 
-
-
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12">
+          <h2 className="">Explore Blog</h2>
+          <hr />
+        </div>
       </div>
+    </div>
+        
+      <div className="container bg-light my-5 ">
+        <div className="row">
+          <div className="col-sm-12">
+            <h2 className="">Our Clients</h2>
+            <p className="">You're in good hands with our clients. Meet our happy clients.</p>
+
+          </div>
+          
+          <div class="carousel slide theme-slider text-center carousel-fade my-5" id="controlStyledExample" data-ride="carousel">
+                        <div class="carousel-indicators">
+                          <button class="" type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="0" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
+                          <button type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner rounded">
+                          <div class="carousel-item">
+                            <img class="d-block w-10 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="First slide"/>
+                          </div>
+                          <div class="carousel-item active">
+                            <img class="d-block w-10 mx-auto" src="https://i.pinimg.com/originals/4a/d6/a8/4ad6a837521a77adb881c380f35941f2.png" alt="Second slide"/>
+                          </div>
+                          <div class="carousel-item">
+                            <img class="d-block w-10 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="Third slide"/>
+                          </div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#controlStyledExample" data-bs-slide="prev">
+                          
+                         </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#controlStyledExample" data-bs-slide="next">
+                           
+                          </button>
+                        </div>
+                      </div>
+                    
+        </div>
+      </div>
+      
+     
+        <Footer/>
+     
+   
+  
+   
+  </div>
+
+
+      
 
     </>
   )
