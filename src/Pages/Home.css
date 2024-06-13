@@ -1,6 +1,6 @@
 .hover-card1:hover{
     box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.8), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.s ease-out;
+    transition: 0.9s ease-out;
 }
 .hover-card:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
@@ -23,13 +23,4 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
-  .container .content1 {
-    position: absolute; /* Position the background text */
-    bottom: 0; /* At the bottom. Use top:0 to append it to the top */
-    background: rgb(0, 0, 0); /* Fallback color */
-    background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
-    color: #f1f1f1; /* Grey text */
-    width: 92%; /* Full width */
-    padding: 20px; /* Some padding */
-    text-align: justify;
-  }
+ 
