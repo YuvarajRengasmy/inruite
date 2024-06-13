@@ -1,8 +1,61 @@
-.hover-card1:hover{
-    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.8), 0 20px 20px 0 rgba(0, 0, 0, 0.19);
-    transition: 0.9s ease-out;
-}
 .hover-card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card-body {
+  padding: 1rem;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text-uppercase {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+h4 {
+  text-align: justify;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+p {
+  text-align: justify;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.text-center {
+  font-size: 1.25rem;
+}
+
+@media (max-width: 768px) {
+  .text-uppercase {
+    font-size: 0.875rem;
+  }
+  h4 {
+    font-size: 1.25rem;
+  }
+  p {
+    font-size: 0.875rem;
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .text-center {
+    font-size: 1rem;
+  }
+}
+.hover-card1:hover {
     /* Start the shake animation and make the animation last for 0.5 seconds */
     animation: shake 0.5s;
   
@@ -23,4 +76,31 @@
     90% { transform: translate(1px, 2px) rotate(0deg); }
     100% { transform: translate(1px, -2px) rotate(-1deg); }
   }
- 
+  .carousel-caption {
+    bottom: 20%;
+  }
+  .carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .carousel-caption p {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+  .carousel-caption .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  @media (max-width: 768px) {
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+    .carousel-caption p {
+      font-size: 1rem;
+    }
+    .carousel-caption .btn {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
+  }

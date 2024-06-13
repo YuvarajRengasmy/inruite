@@ -6,92 +6,104 @@ export const Home = () => {
   return (
     <>
       <div >
-        <nav class="navbar navbar-top navbar-expand-lg">
+        <nav className="navbar navbar-top navbar-expand-lg">
           <Header />
         </nav>
-
-        <div className="container mb-5">
-          <div className="row g-3 mb-4">
-            <div className="col-md-4">
-              <h6 className="text-uppercase fw-bold" style={{ fontSize: '1rem' }}>INRECRUIT HR SERVICES PRIVATE LIMITED</h6>
-              <h4 className="text-capitalize" style={{ textAlign: 'justify', fontSize: '1.5rem', fontWeight: '500' }}>
-                Whether you have immediate or pressing goals or long-term dreams, we will work with you to fulfill them.
-              </h4>
-            </div>
-            <div className="col-md-8 align-self-center">
-              <p className="text-capitalize lh-base" style={{ textAlign: 'justify', fontSize: '1rem', fontWeight: '400' }}>
-                Bring to the table win-win survival strategies to ensure proactive domination. Our goal is to build a platform where business establishments across the globe and job aspirants can connect and achieve mutually beneficial results.
-              </p>
-            </div>
-          </div>
-          <div className="row g-3">
-            <div className="col-md-3 col-sm-6 p-2">
-              <div className="card rounded-0 border-0 h-100 hover-card">
-                <img
-                  src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp"
-                  alt="image"
-                  className="img-fluid h-100"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-dark text-center" style={{ fontSize: '1.25rem', fontWeight: '600' }}>Recruiting</h5>
-                  <p className="card-text text-dark" style={{ textAlign: 'justify', fontSize: '1rem', fontWeight: '400' }}>
-                    Intermediary Between Organisation Recruiting Client And Individual Seeking Employment.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 p-2">
-              <div className="card rounded-0 border-0 h-100 hover-card">
-                <img
-                  src="https://vcconsultingservices.com/wp-content/uploads/2021/02/Consulting-Services.png"
-                  alt="image"
-                  className="img-fluid h-100"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-dark text-center" style={{ fontSize: '1.25rem', fontWeight: '600' }}>Consulting</h5>
-                  <p className="card-text text-dark" style={{ textAlign: 'justify', fontSize: '1rem', fontWeight: '400' }}>
-                    Engaged In Business Of Giving Expert Advice To People Working In A Professional Or Technical Field.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 p-2">
-              <div className="card rounded-0 border-0 h-100 hover-card">
-                <img
-                  src="https://f.hubspotusercontent30.net/hubfs/3277184/employee%20training%20and%20development.png"
-                  alt="image"
-                  className="img-fluid h-100"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-dark text-center" style={{ fontSize: '1.25rem', fontWeight: '600' }}>Training</h5>
-                  <p className="card-text text-dark" style={{ textAlign: 'justify', fontSize: '1rem', fontWeight: '400' }}>
-                    Duties and responsibilities include developing instructional materials, organizing learning activities.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div className="col-md-3 col-sm-6 p-2">
-              <div className="card rounded-0 border-0 h-100 hover-card">
-                <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s"
-                  alt="image"
-                  className="img-fluid h-100"
-                />
-                <div className="card-body">
-                  <h5 className="card-title text-dark text-center" style={{ fontSize: '1.25rem', fontWeight: '600' }}>Outsourcing</h5>
-                  <p className="card-text text-dark" style={{ textAlign: 'justify', fontSize: '1rem', fontWeight: '400' }}>
-                    Contract to provide a certain number of people to perform certain tasks for another company.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="row g-3 py-3">
-            <div className="col-sm-12">
-              <p className="text-center fw-semibold" style={{ fontSize: '1.25rem' }}>We Always Strive Hard To Find The Right Person For The Right Job.</p>
-            </div>
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
+    <div className="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div className="carousel-inner">
+      <div className="carousel-item active">
+        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100" alt="IMAGE1"/>
+        <div className="carousel-caption">
+          <h5 className="text-capitalize">digital transformation</h5>
+          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
+        </div>
+      </div>
+      <div className="carousel-item">
+        <img src="https://assets.entrepreneur.com/content/3x2/2000/1703169874-hiring-interview-process-g-1434331704.jpg" className="d-block w-100" alt="image2"/>
+        <div className="carousel-caption">
+          <h5 className="text-capitalize">digital transformation</h5>
+          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
+        </div>
+      </div>
+      <div className="carousel-item">
+        <img src="https://images.ctfassets.net/p03bi75xct27/47Fx29nT0wcVxPp5jBreAL/175dda14f19038e1e9e0e4c07c79ad7f/Two-colleagues-work-on-their-social-media-recruiting-strategy..jpg?q=80&fm=webp&w=2048" className="d-block w-100" alt="image3"/>
+        <div className="carousel-caption">
+          <h5 className="text-capitalize">digital transformation</h5>
+          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
+        </div>
+      </div>
+    </div>
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Previous</span>
+    </button>
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div className="container my-5">
+    <div className="row g-3 mb-4">
+      <div className="col-md-4">
+        <h6 className="text-uppercase fw-bold">INRECRUIT HR SERVICES PRIVATE LIMITED</h6>
+        <h4>Whether you have immediate or pressing goals or long-term dreams, we will work with you to fulfill them.</h4>
+      </div>
+      <div className="col-md-8 align-self-center">
+        <p>Bring to the table win-win survival strategies to ensure proactive domination. Our goal is to build a platform where business establishments across the globe and job aspirants can connect and achieve mutually beneficial results.</p>
+      </div>
+    </div>
+    <div className="row g-3">
+      <div className="col-md-3 col-sm-6 p-2">
+        <div className="card rounded-0 border-0 h-100 hover-card">
+          <img src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp" alt="image" className="img-fluid h-100" />
+          <div className="card-body">
+            <h5 className="card-title text-dark text-center">Recruiting</h5>
+            <p className="card-text text-dark">Intermediary Between Organisation Recruiting Client And Individual Seeking Employment.</p>
           </div>
         </div>
+      </div>
+      <div className="col-md-3 col-sm-6 p-2">
+        <div className="card rounded-0 border-0 h-100 hover-card">
+          <img src="https://vcconsultingservices.com/wp-content/uploads/2021/02/Consulting-Services.png" alt="image" className="img-fluid h-100" />
+          <div className="card-body">
+            <h5 className="card-title text-dark text-center">Consulting</h5>
+            <p className="card-text text-dark">Engaged In Business Of Giving Expert Advice To People Working In A Professional Or Technical Field.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3 col-sm-6 p-2">
+        <div className="card rounded-0 border-0 h-100 hover-card">
+          <img src="https://f.hubspotusercontent30.net/hubfs/3277184/employee%20training%20and%20development.png" alt="image" className="img-fluid h-100" />
+          <div className="card-body">
+            <h5 className="card-title text-dark text-center">Training</h5>
+            <p className="card-text text-dark">Duties and responsibilities include developing instructional materials, organizing learning activities.</p>
+          </div>
+        </div>
+      </div>
+      <div className="col-md-3 col-sm-6 p-2">
+        <div className="card rounded-0 border-0 h-100 hover-card">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s" alt="image" className="img-fluid h-100" />
+          <div className="card-body">
+            <h5 className="card-title text-dark text-center">Outsourcing</h5>
+            <p className="card-text text-dark">Contract to provide a certain number of people to perform certain tasks for another company.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div className="row g-3 py-3">
+      <div className="col-sm-12">
+        <p className="text-center fw-semibold">We Always Strive Hard To Find The Right Person For The Right Job.</p>
+      </div>
+    </div>
+  </div>
 
 
         <div className="container my-5">
@@ -169,7 +181,7 @@ export const Home = () => {
   </div>
 </div>
 
-<div className="container my-5">
+<div className="container my-5 ">
   <div className="row">
     <div className="col-md-4">
       <h4 className="fw-semibold h2">Our Practice Area</h4>
@@ -237,13 +249,109 @@ export const Home = () => {
   </div>
 </div>
 
-        <div className="container-fluid my-5 bg-secondary">
-          <div className="row">
-            
-
+<div className="container-fluid my-5 bg-secondary">
+    <div className="row">
+      <div className="col">
+        <div className="container py-4">
+          <h4 className="text-capitalize h2 fw-bold text-dark">Industries That We Serve</h4>
+          <p className="fs-5">We serve the clients of the following industries by providing quality professional services designed to support their mission and business needs.</p>
+          <div className="row g-3">
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://static.vecteezy.com/system/resources/previews/013/365/315/original/manufacturing-icon-design-free-vector.jpg" alt="Manufacturing" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">Manufacturing</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTZiAwXG8l-xpkyLsJW_3QkAphO2kv0SleCQ&s" alt="Engineering" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">Engineering</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://static.vecteezy.com/system/resources/previews/002/387/825/non_2x/antenna-icon-flat-style-isolated-on-white-background-free-vector.jpg" alt="IT & Telecom" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">IT & Telecom</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://cdn-icons-png.freepik.com/512/542/542424.png" alt="Energy & Resources" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">Energy & Resources</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://cdn-icons-png.flaticon.com/512/5333/5333434.png" alt="Travel & Tourism" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">Travel & Tourism</h5>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-2 col-md-4 col-sm-6">
+              <div className="card h-100">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHDyKonzsSMWfvb-7TmvW5hJwa8uzA0EP1hA&s" alt="Accounting & Operations" className="img-fluid h-100"/>
+                <div className="card-body">
+                  <h5 className="text-capitalize h5 text-center text-dark">Accounting & Operations</h5>
+                </div>
+              </div>
+            </div>
           </div>
-
         </div>
+      </div>
+    </div>
+    <div className="row">
+      <div className="text-center pb-4">
+        <a href="#" className="btn text-white fw-semibold  text-uppercase " style={{backgroundColor: "#fe5722"}}>View All Industries</a>
+      </div>
+    </div>
+  </div>
+  <div className="container my-5">
+    <div className="row g-3">
+      <div className="col-md-6">
+        <div className="card rounded-0 border-0  hover-card  h-100">
+          <img src="https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg" alt="cardimage" className="  img-fluid h-100 p-0" />
+        
+        <div className="card-img-overlay align-self-center">
+        <h5 className=" text-capitalize fw-bold h3 text-center">How can we build your business?</h5>
+        <p className="lh-base" style={{textAlign:'justify'}}>
+        We provide expert opinions, analysis, and strategies to organizations to prevent problems and improve performance.
+        </p>
+        <div className="text-center">
+        <a href="" className="btn text-white text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fe5722'}}>let's work together</a>
+        </div>
+      
+          </div> 
+        </div>
+      </div>
+      <div className="col-md-6">
+        <div className="card rounded-0 border-0 hover-card h-100">
+          <img src="https://imageio.forbes.com/specials-images/imageserve/63bf071b2f42e71ecce4e9c0/Human-resources-and-CRM/960x0.jpg?height=473&width=711&fit=bounds" alt="cardimage" className="  img-fluid h-100 p-0" />
+        
+        <div className="card-img-overlay align-self-center">
+        <h5 className=" text-capitalize fw-bold h3 text-center">Our people are our
+        greatest assests</h5>
+        <p className="lh-base" style={{textAlign:'justify'}}>
+        We work with you to transform your organization, driving bold ideas and pragmatic solutions
+        </p>
+        <div className="text-center">
+        <a href="" className="btn text-dark text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fff'}}>come work with us</a>
+        </div>
+      
+          </div> 
+        </div>
+      </div>
+    </div>
+  </div>
+
 
 
       </div>
