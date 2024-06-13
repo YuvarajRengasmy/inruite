@@ -18,8 +18,8 @@ export const Home = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100" alt="IMAGE1" style={{height:'70vh'}}/>
-        <div className="carousel-caption">
+        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100 position-relative" alt="IMAGE1" style={{height:'70vh'}}/>
+        <div className="carousel-caption position-absolute">
           <h5 className="text-capitalize  text-center">digital transformation</h5>
           <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>

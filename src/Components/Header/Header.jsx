@@ -4,7 +4,7 @@ import { IoIosArrowDown } from "react-icons/io";
 export const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  ">
+      <nav className="navbar navbar-expand-lg shadow-lg bg-light fixed-top ">
         <div className="container-fluid ">
           <a className="navbar-brand " href="#">
             <img
@@ -44,9 +44,20 @@ export const Header = () => {
                   Industries <IoIosArrowDown />
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Home</a></li>
-                  <li><a className="dropdown-item" href="#">About</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">Civil & Construction</a></li>
+                  <li><a className="dropdown-item" href="#">Engineering</a></li>
+                  <li><a className="dropdown-item" href="#">Hospitality</a></li>
+                  <li><a className="dropdown-item" href="#">Energy & Resources</a></li>
+                  <li><a className="dropdown-item" href="#">Manfacturing</a></li>
+                  <li><a className="dropdown-item" href="#">IT & Telecom</a></li>
+                  <li><a className="dropdown-item" href="#">Oil & Gas</a></li>
+                  <li><a className="dropdown-item" href="#">HealthCare</a></li>
+                  <li><a className="dropdown-item" href="#">Travel & Tourism</a></li>
+                  <li><a className="dropdown-item" href="#">FCMG</a></li>
+                  <li><a className="dropdown-item" href="#">Marine/Shipping</a></li>
+                  <li><a className="dropdown-item" href="#">Education</a></li>
+                  <li><a className="dropdown-item" href="#">Distribution & Logistics</a></li>
+                
                 </ul>
               </li>
               <li className="nav-item dropdown">
@@ -60,9 +71,15 @@ export const Header = () => {
                   Services <IoIosArrowDown />
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Home</a></li>
-                  <li><a className="dropdown-item" href="#">About</a></li>
-                  <li><a className="dropdown-item" href="#">Something else here</a></li>
+                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
+                  <li><a className="dropdown-item" href="#">executive search</a></li>
+                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
+                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
+                  <li><a className="dropdown-item" href="#">executive search</a></li>
+                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
+                  <li><a className="dropdown-item" href="#">overseas recuritment</a></li>
+                  <li><a className="dropdown-item" href="#">executive search</a></li>
+                  <li><a className="dropdown-item" href="#">contact hiring</a></li>
                 </ul>
               </li>
               <li className="nav-item">
