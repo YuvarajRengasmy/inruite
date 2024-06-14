@@ -93,7 +93,7 @@ export const Header = () => {
                 <a className="nav-link" href="#">Careers</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Blogs</a>
+                <a className="nav-link" href="/blogs">Blogs</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/contact">Contact Us</a>
