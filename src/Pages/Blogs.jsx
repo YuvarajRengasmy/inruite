@@ -1,5 +1,7 @@
 import React from 'react'
 import Header from '../Components/Header/Header';
+import Footer from '../Components/Footer/Footer';
+
 import { Link } from 'react-router-dom';
 
 
@@ -44,17 +46,21 @@ export const Blogs = () => {
           </div>
           <div className="col-md-6">
             <div className="card card-body border-0 rounded-0 p-4 h-100" >
-              <div className="card-title text-center">Your Ultimate guide forland</div>
+              <div className="card-title text-start">Your Ultimate guide for landing a job abroad from india: step-by-step process</div>
               <p className="card-text" style={{ textAlign: 'justify' }}>OverseasJobs</p>
             </div>
           </div>
           <div className="col-md-3">
-            <div className="card card-body border-0 rounded-0 p-4 h-100" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
-              <div className="card-title text-center">People consultant</div>
-              <p className="card-text" style={{ textAlign: 'justify' }}>Process/People consultant assists in searching for solutions with methods that facilitate and raise creativity of the client company so that they will be able to implement solutions themselves.</p>
+            <div className="card card-body border-0 rounded-0 p-4 h-100" style={{ backgroundColor: '#f2f2f3' }}>
+              <div className="card-title text-center">OverSeas Jobs</div>
+             
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <Footer />
       </div>
 
    
