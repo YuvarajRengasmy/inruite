@@ -55,7 +55,7 @@ export const Footer = () => {
           </div>
           <div className="contact-details">
             <div className="contact-address  ">
-            <div className="d-flex flex-row align-items-center justify-content-start gap-2">
+            <div className="d-flex flex-row align-items-center justify-content-center gap-2">
             <h4 className="" style={{color:'#fe5722'}}><FaHome /></h4>
             <div className="d-flex flex-column">
              
@@ -87,31 +87,42 @@ export const Footer = () => {
 
         </div>
         </div>
-        <div className="row g-5">
+        </div>
+      
+        <div className="container-fluid p-4" style={{backgroundColor:'#0f2239',color:'white'}}>
+        <div className="container " >
+          
+          <div className="row g-3">
           <div className="col-12 col-md-4 col-sm-6">
           <div className="footer-icon d-flex flex-row align-items-center justify-content-around">
-            <div className="facebook-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaFacebookF /></div>
-            <div className="linkedin-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaLinkedinIn /></div>
-            <div className="instagram-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaInstagram /></div>
-            <div className="youtube-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaYoutube /></div>
-            <div className="twitter-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}><FaXTwitter /></div>
+            <div className="facebook-icon rounded-circle fw-bold px-3 pt-2 pb-3" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaFacebookF /></div>
+            <div className="linkedin-icon rounded-circle fw-bold px-3 pt-2 pb-3" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaLinkedinIn /></div>
+            <div className="instagram-icon rounded-circle fw-bold px-3 pt-2 pb-3" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaInstagram /></div>
+            <div className="youtube-icon rounded-circle fw-bold px-3 pt-2 pb-3" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaYoutube /></div>
+            <div className="twitter-icon rounded-circle fw-bold px-3 pt-2 pb-3" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}><FaXTwitter /></div>
           </div>
           </div>
           <div className="col-12 col-md-8 col-sm-6">
           <div className="d-flex flex-row align-items-center justify-content-center gap-3">
-            <h4 className="" style={{color:'#fe5722'}}><FaRegCopyright /></h4>
-            <div className="d-flex flex-column ">
+            <h4 className="" ><FaRegCopyright /></h4>
+         
              
-              <p style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
-              2024 Copyright: <span style={{color:'#fe5722'}}> InRecuruit</span>
+              <p className='' style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
+              2024 Copyright: <span > InRecuruit</span>
               </p>
-            </div>
-          </div>
+         
+        
           </div>
           
      
       </div>
-    </div>
+          </div>
+        </div>
+        </div>
+       
+       
+      
+  
   </div>
   
   )

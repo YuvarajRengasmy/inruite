@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { IoIosArrowDown } from "react-icons/io";
-
+import { HiOutlinePlusSm } from "react-icons/hi";
 
 export const Header = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg shadow-lg bg-light fixed-top">
+      <nav className="navbar navbar-expand-lg shadow bg-white fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
@@ -28,7 +28,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px', color: "#fe5722", fontVariant: 'all-small-caps' }}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '18px', color: "#fe5722", fontVariant: 'all-small-caps' }}>
               <li className="nav-item">
                 <a className="nav-link" href="/">Home</a>
               </li>
@@ -43,36 +43,37 @@ export const Header = () => {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Industries <span><IoIosArrowDown /></span>
+                  Industries <span className='d-none d-lg-inline-block'><IoIosArrowDown /></span> 
+                  {/* <span className='d-md d-lg-none'><HiOutlinePlusSm /></span> */}
                 </a>
                 <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="/Civil">Civil & Construction</a></li>
-                  <li><a className="dropdown-item" href="#">Engineering</a></li>
-                  <li><a className="dropdown-item" href="#">Hospitality</a></li>
-                  <li><a className="dropdown-item" href="#">Energy & Resources</a></li>
-                  <li><a className="dropdown-item" href="#">Manufacturing</a></li>
-                  <li><a className="dropdown-item" href="#">IT & Telecom</a></li>
-                  <li><a className="dropdown-item" href="#">Oil & Gas</a></li>
-                  <li><a className="dropdown-item" href="#">Healthcare</a></li>
-                  <li><a className="dropdown-item" href="#">Travel & Tourism</a></li>
-                  <li><a className="dropdown-item" href="#">FMCG</a></li>
-                  <li><a className="dropdown-item" href="#">Marine/Shipping</a></li>
-                  <li><a className="dropdown-item" href="#">Education</a></li>
-                  <li><a className="dropdown-item" href="#">Distribution & Logistics</a></li>
+                  <li><a className="dropdown-item" href="/Engineering">Engineering</a></li>
+                  <li><a className="dropdown-item" href="/Hospitality">Hospitality</a></li>
+                  <li><a className="dropdown-item" href="/Energy-&-Resources">Energy & Resources</a></li>
+                  <li><a className="dropdown-item" href="Manfacturing">Manufacturing</a></li>
+                  <li><a className="dropdown-item" href="IT-&-Telecom">IT & Telecom</a></li>
+                  <li><a className="dropdown-item" href="Oil-&-Gas">Oil & Gas</a></li>
+                  <li><a className="dropdown-item" href="/Healthcare">Healthcare</a></li>
+                  <li><a className="dropdown-item" href="/Travel-&-Tourism">Travel & Tourism</a></li>
+                  <li><a className="dropdown-item" href="/FMCG">FMCG</a></li>
+                  <li><a className="dropdown-item" href="/Marine-Shipping">Marine/Shipping</a></li>
+                  <li><a className="dropdown-item" href="/Education">Education</a></li>
+                  <li><a className="dropdown-item" href="/Distribution-&-Logistics">Distribution & Logistics</a></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
                 <a
                   className="nav-link "
-                  href="#"
+                  href="/Services"
                   role="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  Services <IoIosArrowDown />
+                  Services <span className='d-none d-lg-inline-block'><IoIosArrowDown /></span> 
                 </a>
                 <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Overseas Recruitment</a></li>
+                  <li><a className="dropdown-item" href="/Services">Overseas Recruitment</a></li>
                   <li><a className="dropdown-item" href="#">Executive Search</a></li>
                   <li><a className="dropdown-item" href="#">Contract Hiring</a></li>
                   <li><a className="dropdown-item" href="#">Permanent Staffing</a></li>
