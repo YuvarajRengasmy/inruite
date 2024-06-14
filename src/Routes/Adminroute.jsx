@@ -5,6 +5,7 @@ import About from '../Pages/About'
 import Industries from '../Pages/Industries'
 import Contact from '../Pages/Contact'
 
+
 export const Adminroute = () => {
   return (
     <div>
@@ -14,6 +15,7 @@ export const Adminroute = () => {
          <Route path='/about' element={<About/>}/>
          <Route path='/Industries' element={<Industries/>}/>
          <Route path='/contact' element={<Contact />}/>
+    
         </Routes>
         </BrowserRouter>
     </div>
