@@ -34,19 +34,28 @@ export const Blogs = () => {
       {/* // Cards */}
 
 
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-3">
-          <div class="card" style={{width: '18rem'}}>
-            <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMq2ndMHqF6tbdcH0OQwud8DsI0Z385EvbfjKK-Ob-ng&s' class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
+      <div className="container my-5">
+        <div className="row g-3">
+  
+          <div className="col-md-3">
+            <div className="card card-body border-0 rounded-0 p-4 h-100" >
+            <img src='https://366e203a.rocketcdn.me/wp-content/uploads/2020/11/Queens-University-Belfast.jpg' className="d-block w-100 position-relative" alt="IMAGE1" style={{ height: '50vh' }} />
+            </div>
           </div>
-
+          <div className="col-md-6">
+            <div className="card card-body border-0 rounded-0 p-4 h-100" >
+              <div className="card-title text-center">Your Ultimate guide forland</div>
+              <p className="card-text" style={{ textAlign: 'justify' }}>OverseasJobs</p>
+            </div>
+          </div>
+          <div className="col-md-3">
+            <div className="card card-body border-0 rounded-0 p-4 h-100" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
+              <div className="card-title text-center">People consultant</div>
+              <p className="card-text" style={{ textAlign: 'justify' }}>Process/People consultant assists in searching for solutions with methods that facilitate and raise creativity of the client company so that they will be able to implement solutions themselves.</p>
+            </div>
+          </div>
         </div>
       </div>
-    </div >
 
    
  </>
