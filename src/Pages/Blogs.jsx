@@ -45,7 +45,7 @@ export const Blogs = () => {
             </div>
           </div>
           <div className="col-md-6">
-            <div className="card card-body border-0 rounded-0 p-4 h-100" >
+            <div className="card card-body border-1 rounded-0 p-4 h-100" >
               <div className="card-title text-start">Your Ultimate guide for landing a job abroad from india: step-by-step process</div>
               <p className="card-text" style={{ textAlign: 'justify' }}>OverseasJobs</p>
             </div>
