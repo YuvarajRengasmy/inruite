@@ -94,7 +94,7 @@ export const Header = () => {
                 <a className="nav-link" href="/Careers">Careers</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Blogs</a>
+                <a className="nav-link" href="/blogs">Blogs</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/Contact">Contact Us</a>
