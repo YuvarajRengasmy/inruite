@@ -28,7 +28,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '18px', color: "#fe5722", fontVariant: 'all-small-caps' }}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px', color: "#fe5722",}}>
               <li className="nav-item">
                 <a className="nav-link" href="/">Home</a>
               </li>
@@ -85,19 +85,19 @@ export const Header = () => {
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Process</a>
+                <a className="nav-link" href="/Process">Process</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Clients</a>
+                <a className="nav-link" href="/Clients">Clients</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Careers</a>
+                <a className="nav-link" href="/Careers">Careers</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="#">Blogs</a>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Us</a>
+                <a className="nav-link" href="/Contact">Contact Us</a>
               </li>
             </ul>
           </div>
