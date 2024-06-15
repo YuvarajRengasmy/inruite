@@ -26,6 +26,7 @@ import Clients from '../Pages/Clients'
 import Blogs from '../Pages/Blogs'
 import Careers from '../Pages/Careers'
 import Executive from '../Pages/Services/Executive'
+import Contract from '../Pages/Services/contract'
 export const Adminroute = () => {
   return (
     <div>
@@ -57,6 +58,7 @@ export const Adminroute = () => {
           <Route path='/Careers' element={<Careers/>}/>
           <Route path='/Blogs' element={<Blogs/>}/>
           <Route path='/Executive-Search' element={<Executive/>}/>
+          <Route path='/Contract-Search' element={<Contract/>}/>
 
 
         </Routes>

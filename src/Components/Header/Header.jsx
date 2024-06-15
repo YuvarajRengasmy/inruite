@@ -75,7 +75,7 @@ export const Header = () => {
                 <ul className="dropdown-menu" aria-labelledby="navbarDropdownServices">
                   <li><a className="dropdown-item" href="/Services">Overseas Recruitment</a></li>
                   <li><a className="dropdown-item" href="/Executive-Search">Executive Search</a></li>
-                  <li><a className="dropdown-item" href="#">Contract Hiring</a></li>
+                  <li><a className="dropdown-item" href="/Contract-Search">Contract Hiring</a></li>
                   <li><a className="dropdown-item" href="#">Permanent Staffing</a></li>
                   <li><a className="dropdown-item" href="#">Payroll Management</a></li>
                   <li><a className="dropdown-item" href="#">Job Fair</a></li>
