@@ -132,12 +132,22 @@ export const Careers = () => {
         <div className="row">
           <div className="col-12">
             <div className="card card-body p-4">
+              <table className="table">
+                <tr>
+                  <th>Job Title</th>
+                  <th>Country</th>
+                  <th>Salary</th>
+                  <th>Experience</th>
+                  <th>Job Details</th>
+                  <th>Apply</th>
+                </tr>
+              </table>
               <div className="d-flex flex-row align-items-center justify-content-between">
-                <div className="job-title">Job title</div>
-                <div className="country">Country</div>
-                <div className="salary d-none d-lg-inline">Salary</div>
-                <div className="experience  d-none d-lg-inline">Experience</div>
-                <div className="job-details  d-none d-lg-inline">Job Details</div>
+                <div className="job-title">AI</div>
+                <div className="country">London</div>
+                <div className="salary d-none d-lg-inline">$30000</div>
+                <div className="experience  d-none d-lg-inline">5 years</div>
+                <div className="job-details  d-none d-lg-inline">nnnnnnnnnnnnnn</div>
                 <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button>

@@ -77,7 +77,7 @@ export const Home = () => {
         <div className="row g-4 mb-4">
           <div className="col-md-4">
             <h6 className="text-uppercase fw-bold" style={{color:'#0f2239'}}>INRECRUIT HR SERVICES PRIVATE LIMITED</h6>
-            <h4>Whether you have immediate or pressing goals or long-term dreams, we will work with you to fulfill them.</h4>
+            <h4 className='fw-normal' style={{textAlign:'justify',fontSize:'18px'}}>Whether you have immediate or pressing goals or long-term dreams, we will work with you to fulfill them.</h4>
           </div>
           <div className="col-md-8 align-self-center">
             <p>Bring to the table win-win survival strategies to ensure proactive domination. Our goal is to build a platform where business establishments across the globe and job aspirants can connect and achieve mutually beneficial results.</p>
@@ -91,7 +91,7 @@ export const Home = () => {
         <img src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp"  class="card-img-top img-fluid  rounded-0  h-50" alt="Recruiting"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Recruiting</h5>
-          <p class="card-text" style={{textAlign:'justify'}}>Intermediary Between Organisation Recruiting Client And Individual Seeking Employment.</p>
+          <p class="card-text" style={{textAlign:'justify',fontSize:'14px'}}>Intermediary Between Organisation Recruiting Client And Individual Seeking Employment.</p>
         </div>
       </div>
     </div>
@@ -100,8 +100,8 @@ export const Home = () => {
       <div class="card border-0  rounded-0  shadow-lg h-100 hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://consultport.com/wp-content/uploads/2023/06/4-Underused-Tools-to-Streamline-Project-Management.png" class="card-img-top img-fluid  rounded-0  h-50" alt="Consulting"/>
         <div class="card-body">
-          <h5 class="card-title text-center fw-bold">Consulting</h5>
-          <p class="card-text " style={{textAlign:'justify'}}>Engaged In Business Of Giving Expert Advice To People Working In A Professional Or Technical Field.</p>
+          <h5 class="card-title  text-center fw-bold">Consulting</h5>
+          <p class="card-text " style={{textAlign:'justify',fontSize:'14px'}}>Engaged In Business Of Giving Expert Advice To People Working In A Professional Or Technical Field.</p>
         </div>
       </div>
     </div>
@@ -111,7 +111,7 @@ export const Home = () => {
         <img src="https://media.publit.io/file/w_1920,h_1080,c_fit,q_80/chrmpWebsite/featured-2.png" class="card-img-top img-fluid  rounded-0   h-50" alt="Training"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Training</h5>
-          <p class="card-text " style={{textAlign:'justify'}}>Duties and responsibilities include developing instructional materials, organizing learning activities.</p>
+          <p class="card-text " style={{textAlign:'justify',fontSize:'14px'}}>Duties and responsibilities include developing instructional materials, organizing learning activities.</p>
         </div>
       </div>
     </div>
@@ -121,7 +121,7 @@ export const Home = () => {
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s" class="card-img-top img-fluid  rounded-0   h-50" alt="Outsourcing"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Outsourcing</h5>
-          <p class="card-text "style={{textAlign:'justify'}}>Contract to provide a certain number of people to perform certain tasks for another company.</p>
+          <p class="card-text "style={{textAlign:'justify',fontSize:'14px'}}>Contract to provide a certain number of people to perform certain tasks for another company.</p>
         </div>
       </div>
     </div>
@@ -192,27 +192,27 @@ export const Home = () => {
            
           </h5>
         </div>
-        <div className="col-md-8">
-          <p className="lh-sm fw-light " style={{ fontSize: "1.28rem", fontWeight: 300, textAlign: "justify" }}>
+        <div className="col-md-8 align-self-center">
+          <p className="lh-sm fw-light  " style={{ fontSize: "1rem", fontWeight: 300, textAlign: "justify" }}>
             InRecruit HR Services Private Limited ensures that our recruits meet the expectations of our clients, ensuring that the right candidates with the desired qualifications and relevant work experience come on board.
           </p>
           <div className="row row-cols-1 row-cols-sm-3 g-3">
             <div className="col">
-              <div className="card card-body">
+              <div className="card card-body border-0 rounded-0 " style={{backgroundColor:'#fe5722',color:'#fff'}}>
               <h4 className="text-center h1" style={{ fontSize: "2rem", fontWeight: 600 }}>20+</h4>
               <p className="text-center" style={{ fontSize: "1rem", fontWeight: 400 }}>Countries Served</p>
               </div>
              
             </div>
             <div className="col">
-            <div className="card card-body">
+            <div className="card card-body border-0 rounded-0"style={{backgroundColor:'#0f2239',color:'#fff'}}>
             <h4 className="text-center h1" style={{ fontSize: "2rem", fontWeight: 600 }}>200+</h4>
             <p className="text-center" style={{ fontSize: "1rem", fontWeight: 400 }}>Clients Served</p>
               </div>
              
             </div>
             <div className="col">
-            <div className="card card-body">
+            <div className="card card-body bg-primary border-0 rounded-0"style={{color:'#fff'}}>
             <h4 className="text-center h1" style={{ fontSize: "2rem", fontWeight: 600 }}>1000+</h4>
             <p className="text-center" style={{ fontSize: "1rem", fontWeight: 400 }}>Our Success Stories</p>
               </div>
@@ -376,7 +376,7 @@ export const Home = () => {
         We provide expert opinions, analysis, and strategies to organizations to prevent problems and improve performance.
         </p>
         <div className="text-center">
-        <a href="" className="btn text-white text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fe5722'}}>let's work together</a>
+        <a href="/Contact" className="btn text-white text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fe5722'}}>let's work together</a>
         </div>
       
           </div> 
@@ -396,7 +396,7 @@ export const Home = () => {
         We work with you to transform your organization, driving bold ideas and pragmatic solutions
         </p>
         <div className="text-center">
-        <a href="" className="btn text-dark text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fff'}}>come work with us</a>
+        <a href="/Careers" className="btn text-dark text-uppercase rounded-5 px-3 py-2" style={{backgroundColor:'#fff'}}>come work with us</a>
         </div>
       
           </div> 
@@ -436,7 +436,7 @@ export const Home = () => {
                             <img class="d-block w-10 mx-auto" src="https://i.pinimg.com/originals/4a/d6/a8/4ad6a837521a77adb881c380f35941f2.png" alt="Second slide"/>
                           </div>
                           <div class="carousel-item">
-                            <img class="d-block w-10 " src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="Third slide"/>
+                            <img class="d-block w-10 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="Third slide"/>
                           </div>
                           <button class="carousel-control-prev" type="button" data-bs-target="#controlStyledExample" data-bs-slide="prev">
                           
