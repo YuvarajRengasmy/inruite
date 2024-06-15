@@ -47,6 +47,18 @@ export const Careers = () => {
           </div>
         </div>
       </div>
+      <div className="container my-5">
+        <div className="row">
+          <div className="col-sm-12">
+            <div className="card card-body p-4">
+              <h4 className="fw-bold">DataBank</h4>
+              <p className="lh-base" style={{ textAlign: 'justify' }}>
+                We maintain a databank i.e., a database of profiles. Whenever someone approaches us for a job, we will add their details to the data bank.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
       
       <div className="footer">
         <Footer />
