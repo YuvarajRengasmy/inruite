@@ -59,6 +59,9 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="/Marine-Shipping">Marine/Shipping</a></li>
                   <li><a className="dropdown-item" href="/Education">Education</a></li>
                   <li><a className="dropdown-item" href="/Distribution-&-Logistics">Distribution & Logistics</a></li>
+                  <li><a className="dropdown-item" href="/Agriculture">Agriculture</a></li>
+                  <li><a className="dropdown-item" href="/Automobile">Automobile</a></li>
+                  <li><a className="dropdown-item" href="/Accounting-Operations">Accounting</a></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">

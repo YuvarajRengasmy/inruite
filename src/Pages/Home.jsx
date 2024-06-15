@@ -3,13 +3,20 @@ import Header from '../Components/Header/Header';
 import './Home.css'
 import { IoBarChartSharp } from "react-icons/io5";
 import Footer from '../Components/Footer/Footer'
+import Video1 from "../assets/video/video1.mp4"
+import Video2 from "../assets/video/video2.mp4"
+import Video3 from "../assets/video/video3.mp4"
+import Video4 from "../assets/video/video4.mp4"
+
 export const Home = () => {
   return (
     <>
       <div >
         <div className=" ">
           <Header />
+
         </div>
+      
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
     <div className="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -18,7 +25,12 @@ export const Home = () => {
     </div>
     <div className="carousel-inner">
       <div className="carousel-item active">
-        <img src="https://www.jobvite.com/wp-content/uploads/2023/10/shutterstock_2358872743-1-scaled-e1698330944181.jpg" className="d-block w-100 position-relative" alt="IMAGE1" />
+      <div className="embed-responsive embed-responsive-16by9">
+            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
+              <source src={Video1} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         <div className="carousel-caption position-absolute">
           <h5 className="text-capitalize  text-center">digital transformation</h5>
           <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
@@ -26,18 +38,28 @@ export const Home = () => {
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://assets.entrepreneur.com/content/3x2/2000/1703169874-hiring-interview-process-g-1434331704.jpg" className="d-block w-100" alt="image2 " />
+      <div className="embed-responsive embed-responsive-16by9">
+            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
+              <source src={Video2} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         <div className="carousel-caption">
           <h5 className="text-capitalize">digital transformation</h5>
-          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
           <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
       <div className="carousel-item">
-        <img src="https://images.ctfassets.net/p03bi75xct27/47Fx29nT0wcVxPp5jBreAL/175dda14f19038e1e9e0e4c07c79ad7f/Two-colleagues-work-on-their-social-media-recruiting-strategy..jpg?q=80&fm=webp&w=2048" className="d-block w-100" alt="image3" />
+      <div className="embed-responsive embed-responsive-16by9">
+            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
+              <source src={Video3} type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
         <div className="carousel-caption">
           <h5 className="text-capitalize">digital transformation</h5>
-          <p className="text-capitalize">Reinventing Companies by delivering excellence</p>
+          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
@@ -64,8 +86,8 @@ export const Home = () => {
 
         <div class="container my-5">
   <div class="row  g-3">
-    <div class="col-lg-3 mx-auto d-block">
-      <div class="card border-0 rounded-0 shadow-lg hover-card" style={{width:'20rem',height:'20rem'}}>
+    <div class="col-lg-3">
+      <div class="card border-0 rounded-0 shadow-lg hover-card text-center" style={{width:'15rem',height:'20rem'}}>
         <img src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp"  class="card-img-top img-fluid  rounded-0  h-50" alt="Recruiting"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Recruiting</h5>
@@ -74,8 +96,8 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3  mx-auto d-block">
-      <div class="card border-0  rounded-0  shadow-lg h-100 hover-card" style={{width:'20rem',height:'20rem'}}>
+    <div class="col-lg-3 ">
+      <div class="card border-0  rounded-0  shadow-lg h-100 hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://consultport.com/wp-content/uploads/2023/06/4-Underused-Tools-to-Streamline-Project-Management.png" class="card-img-top img-fluid  rounded-0  h-50" alt="Consulting"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Consulting</h5>
@@ -83,9 +105,9 @@ export const Home = () => {
         </div>
       </div>
     </div>
-    <div className="row g-4">
-    <div class="col-lg-3  mx-auto d-block">
-      <div class="card border-0  rounded-0  shadow-lg  hover-card" style={{width:'20rem',height:'20rem'}}>
+    
+    <div class="col-lg-3 ">
+      <div class="card border-0  rounded-0  shadow-lg  hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://media.publit.io/file/w_1920,h_1080,c_fit,q_80/chrmpWebsite/featured-2.png" class="card-img-top img-fluid  rounded-0   h-50" alt="Training"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Training</h5>
@@ -94,8 +116,8 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3  mx-auto d-block">
-      <div class="card border-0  rounded-0  shadow-lg hover-card" style={{width:'20rem',height:'20rem'}}>
+    <div class="col-lg-3  ">
+      <div class="card border-0  rounded-0  shadow-lg hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s" class="card-img-top img-fluid  rounded-0   h-50" alt="Outsourcing"/>
         <div class="card-body">
           <h5 class="card-title text-center fw-bold">Outsourcing</h5>
@@ -103,7 +125,7 @@ export const Home = () => {
         </div>
       </div>
     </div>
-    </div>
+    
   
   </div>
 </div>
