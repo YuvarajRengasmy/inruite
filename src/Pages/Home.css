@@ -4,10 +4,15 @@
 }
 /* Dropdown CSS for smooth transitions */
 
+
 .nav-link:hover{
   color: #fe5722;
  
   
+}
+.cardimage{
+  background-color: rgba(0, 0, 0, 0.6); 
+  mix-blend-mode: multiply;
 }
 .nav-link{
   color: #231f20;
