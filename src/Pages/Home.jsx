@@ -360,7 +360,7 @@ export const Home = () => {
       </div>
       <div className="col-md-6">
         <div className="card rounded-0 border-0 hover-card h-100" >
-          <img src="https://imageio.forbes.com/specials-images/imageserve/63bf071b2f42e71ecce4e9c0/Human-resources-and-CRM/960x0.jpg?height=473&width=711&fit=bounds" alt="cardimage" className="  img-fluid h-100 p-0" />
+          <img src="https://imageio.forbes.com/specials-images/imageserve/63bf071b2f42e71ecce4e9c0/Human-resources-and-CRM/960x0.jpg?height=473&width=711&fit=bounds" alt="cardimag" className="  img-fluid h-100 p-0" />
         
         <div className="card-img-overlay align-self-center">
         <h5 className=" text-capitalize fw-bold h3 text-center">Our people are our
