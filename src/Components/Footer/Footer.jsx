@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer>
      
-      <div className="container my-5 text-center">
+      <div className="container my-5 mx-auto d-block">
       <hr />
         <div className="row g-3">
           <div className="col-12 col-sm-6 col-md-3">

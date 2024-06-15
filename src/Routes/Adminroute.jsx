@@ -26,6 +26,15 @@ import Clients from '../Pages/Clients'
 import Blogs from '../Pages/Blogs'
 import Careers from '../Pages/Careers'
 import Executive from '../Pages/Services/Executive'
+
+import Contract from '../Pages/Services/Contract'
+import Campus from '../Pages/Services/Campus'
+import Job from '../Pages/Services/Job'
+import Overseas from '../Pages/Services/Overseas'
+import Payroll from '../Pages/Services/Payroll'
+import Permanent from '../Pages/Services/Permanent'
+import Techincal from '../Pages/Services/Techincal'
+import Ticket from '../Pages/Services/Ticket'
 export const Adminroute = () => {
   return (
     <div>
@@ -57,6 +66,14 @@ export const Adminroute = () => {
           <Route path='/Careers' element={<Careers/>}/>
           <Route path='/Blogs' element={<Blogs/>}/>
           <Route path='/Executive-Search' element={<Executive/>}/>
+          <Route path='/Overseas-Recruitment' element={<Overseas/>}/>
+          <Route path='/Contract-Hiring' element={<Contract/>}/>
+          <Route path='/Permanent-Staffing' element={<Permanent/>}/>
+          <Route path='Payroll-Management' element={<Payroll/>}/>
+          <Route path='/Job-Fair' element={<Job/>}/>
+          <Route path='/Campus-Recruitment' element={<Campus/>}/>
+          <Route path='/Technical-Trade-Test' element={<Techincal/>}/>
+          <Route path='/Ticketing' element={<Ticket/>}/>
 
 
         </Routes>

@@ -270,7 +270,7 @@ export const Home = () => {
 </div>
 
 
-<div className="container-fluid my-5" style={{backgroundColor:'#0f2239',color:'#fff'}}>
+<div className="container-fluid my-5 " style={{backgroundColor:'#0f2239',color:'#fff'}}>
     <div className="row">
       <div className="col">
         <div className="container py-4">
@@ -281,7 +281,7 @@ export const Home = () => {
 
             
             <div className="col-lg-2 col-sm-4">
-              <div className="card  " style={{maxHeight:'8rem'}}>
+              <div className="card   " style={{maxHeight:'8rem'}}>
               <img width="50" height="50" src="https://img.icons8.com/color/48/manufacturing.png" alt="manufacturing" className='mx-auto d-block'/>
                 <div className="card-body">
                   <div className="text-capitalize  text-center text-dark"  style={{fontSize:'13px',fontWeight:'bold'}}>Manufacturing</div>
@@ -343,9 +343,11 @@ export const Home = () => {
   <div className="container my-5">
     <div className="row g-3">
       <div className="col-md-6">
-        <div className="card rounded-0 border-0  hover-card  h-100" style={{backgroundImage:`url(${"https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg"})`,backgroundColor:'rgba(0,0,0,0.6)', backgroundBlendMode:'multiply'}}>
+        <div className="card rounded-0 border-0  hover-card  h-100" >
         
-        
+        <div className="image-card">
+          <img src="https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg" alt="" className="img-fluid card1 h-100 p-0" />
+        </div>
         <div className="card-img-overlay align-self-center">
         <h5 className=" text-capitalize fw-bold h3 text-center text-white" >How can we build your business?</h5>
         <p className="lh-base text-white " style={{textAlign:'justify'}}>
@@ -360,12 +362,15 @@ export const Home = () => {
       </div>
       <div className="col-md-6">
         <div className="card rounded-0 border-0 hover-card h-100" >
-          <img src="https://imageio.forbes.com/specials-images/imageserve/63bf071b2f42e71ecce4e9c0/Human-resources-and-CRM/960x0.jpg?height=473&width=711&fit=bounds" alt="cardimag" className="  img-fluid h-100 p-0" />
+        <div className="image-card">
+          <img src="https://samelane.com/wp-content/uploads/2023/05/what-is-refresher-training.jpg" alt="" className="img-fluid card1 h-100 p-0" />
+        </div>
+         
         
         <div className="card-img-overlay align-self-center">
-        <h5 className=" text-capitalize fw-bold h3 text-center">Our people are our
+        <h5 className=" text-capitalize fw-bold h3  text-white text-center">Our people are our
         greatest assests</h5>
-        <p className="lh-base" style={{textAlign:'justify'}}>
+        <p className="lh-base  text-white" style={{textAlign:'justify'}}>
         We work with you to transform your organization, driving bold ideas and pragmatic solutions
         </p>
         <div className="text-center">
