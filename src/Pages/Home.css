@@ -20,15 +20,6 @@
   
 }
 
-.carousel {
- 
-  background-color: rgba(0, 0, 0, 0.6); /* Black color with 50% opacity */
-  overflow: hidden;
-}
-
-.carousel-inner {
-  mix-blend-mode: multiply; /* Apply the desired blend mode */
-}
 
 .card-body {
   padding: 1rem;
@@ -84,7 +75,7 @@ p {
 }
 
   .carousel-caption {
-    bottom: 20%;
+    bottom: 40%;
   }
   .carousel-caption h5 {
     font-size: 2rem;
@@ -110,4 +101,6 @@ p {
       padding: 8px 16px;
       font-size: 0.9rem;
     }
+
   }
+  
