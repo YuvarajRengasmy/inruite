@@ -19,14 +19,14 @@ export const Home = () => {
       
         <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
     <div className="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active " aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2 "></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"  aria-label="Slide 3 "></button>
     </div>
-    <div className="carousel-inner">
-      <div className="carousel-item active">
+    <div className="carousel-inner" style={{height:'95vh'}}>
+      <div className="carousel-item active" >
       <div className="embed-responsive embed-responsive-16by9">
-            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
+            <video className="d-block" style={{pointerEvents:"none"}} autoPlay muted loop controls>
               <source src={Video1} type="video/mp4" />
               Your browser does not support the video tag.
             </video>
@@ -37,7 +37,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item">
+      <div className="carousel-item" >
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video2} type="video/mp4" />
@@ -50,7 +50,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item">
+      <div className="carousel-item" >
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video3} type="video/mp4" />
@@ -65,11 +65,11 @@ export const Home = () => {
       </div>
     </div>
     <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span className="carousel-control-prev-icon " aria-hidden="true"></span>
       <span className="visually-hidden">Previous</span>
     </button>
     <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span className="carousel-control-next-icon" aria-hidden="true"></span>
+      <span className="carousel-control-next-icon " aria-hidden="true"></span>
       <span className="visually-hidden">Next</span>
     </button>
   </div>
@@ -85,8 +85,8 @@ export const Home = () => {
         </div>
 
         <div class="container my-5">
-  <div class="row  g-3">
-    <div class="col-lg-3">
+  <div class="row justify-content-center  g-3">
+    <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card border-0 rounded-0 shadow-lg hover-card text-center" style={{width:'15rem',height:'20rem'}}>
         <img src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp"  class="card-img-top img-fluid  rounded-0  h-50" alt="Recruiting"/>
         <div class="card-body">
@@ -96,7 +96,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="card border-0  rounded-0  shadow-lg h-100 hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://consultport.com/wp-content/uploads/2023/06/4-Underused-Tools-to-Streamline-Project-Management.png" class="card-img-top img-fluid  rounded-0  h-50" alt="Consulting"/>
         <div class="card-body">
@@ -106,7 +106,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card border-0  rounded-0  shadow-lg  hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://media.publit.io/file/w_1920,h_1080,c_fit,q_80/chrmpWebsite/featured-2.png" class="card-img-top img-fluid  rounded-0   h-50" alt="Training"/>
         <div class="card-body">
@@ -116,7 +116,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3  ">
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="card border-0  rounded-0  shadow-lg hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s" class="card-img-top img-fluid  rounded-0   h-50" alt="Outsourcing"/>
         <div class="card-body">
@@ -177,7 +177,7 @@ export const Home = () => {
 <div className="container my-5">
       <div className="row g-5">
         <div className="col-md-4">
-          <h4 className="h1 text-center fw-semibold">Our Core Values</h4>
+          <h4 className="h1 text-center  fw-semibold">Our Core Values</h4>
           <hr />
           <h5 className=" fw-semibold lh-base" style={{  fontSize: "1.28rem",wordSpacing:'30px' }}>
             <div className="d-flex flex-column gap-2 ">
@@ -414,38 +414,52 @@ export const Home = () => {
       </div>
     </div>
         
-      <div className="container bg-light my-5 ">
+      <div className="container bg-light my-5  p-4">
         <div className="row">
           <div className="col-sm-12">
             <h2 className="">Our Clients</h2>
             <p className="">You're in good hands with our clients. Meet our happy clients.</p>
+            
 
           </div>
+          <div className="col-lg-2 col-sm-4 ">
+              <div className="card   " style={{maxHeight:'8rem'}}>
+              <img width="50" height="50" src="https://img.icons8.com/color/48/manufacturing.png" alt="manufacturing" className='mx-auto d-block'/>
+               
+              </div>
+            </div>
+            <div className="col-lg-2  col-sm-4">
+              <div className="card " style={{maxHeight:'8rem'}}>
+              <img width="50" height="50" src="https://img.icons8.com/arcade/64/engineer.png" alt="engineer"  className='mx-auto d-block' />
+               
+              </div>
+            </div>
+            <div className="col-lg-2  col-sm-4">
+              <div className="card " style={{maxHeight:'8rem'}}>
+              <img width="50" height="50" src="https://img.icons8.com/emoji/48/satellite-antenna.png" alt="satellite-antenna"  className='mx-auto d-block'/>
+           
+              </div>
+            </div>
+            <div className="col-lg-2  col-sm-4">
+              <div className="card " style={{maxHeight:'8rem'}}>
+              <img width="50" height="50" src="https://img.icons8.com/external-smashingstocks-flat-smashing-stocks/66/external-Energy-Resources-smooth-conceptual-smashingstocks-flat-smashing-stocks.png"  className='mx-auto d-block' alt="external-Energy-Resources-smooth-conceptual-smashingstocks-flat-smashing-stocks"/>
+              
+              </div>
+            </div>
+            <div className="col-lg-2 col-sm-4">
+              <div className="card " style={{maxHeight:'8rem'}}>
+              <img width="48" height="48" src="https://img.icons8.com/pulsar-gradient/48/trave-diary.png" alt="trave-diary"  className='mx-auto d-block'/>
+           
+              </div>
+            </div>
+            <div className="col-lg-2  col-sm-4">
+              <div className="card " style={{maxHeight:'8rem'}}>
+              <img width="50" height="50" src="https://img.icons8.com/clouds/100/accounting.png" alt="accounting" className='mx-auto d-block'/>
+             
+              </div>
+            </div>
           
-          <div class="carousel slide theme-slider text-center carousel-fade my-5" id="controlStyledExample" data-ride="carousel">
-                        <div class="carousel-indicators">
-                          <button class="" type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="0" aria-label="Slide 1"></button>
-                          <button type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="1" aria-label="Slide 2" class="active" aria-current="true"></button>
-                          <button type="button" data-bs-target="#controlStyledExample" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                        </div>
-                        <div class="carousel-inner rounded">
-                          <div class="carousel-item">
-                            <img class="d-block w-10 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="First slide"/>
-                          </div>
-                          <div class="carousel-item active">
-                            <img class="d-block w-10 mx-auto" src="https://i.pinimg.com/originals/4a/d6/a8/4ad6a837521a77adb881c380f35941f2.png" alt="Second slide"/>
-                          </div>
-                          <div class="carousel-item">
-                            <img class="d-block w-10 mx-auto" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3k8gdPN8T54xI2gtOFtTQ8f1RiBZ0YNlbuA&s" alt="Third slide"/>
-                          </div>
-                          <button class="carousel-control-prev" type="button" data-bs-target="#controlStyledExample" data-bs-slide="prev">
-                          
-                         </button>
-                          <button class="carousel-control-next" type="button" data-bs-target="#controlStyledExample" data-bs-slide="next">
-                           
-                          </button>
-                        </div>
-                      </div>
+          
                     
         </div>
       </div>

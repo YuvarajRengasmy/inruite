@@ -85,16 +85,16 @@ export const Contact = () => {
     </div>
 
     <div className='p-2'>
-      <div class=" d-inline fw-bold">Business-Enquiry: </div>
-      <div class=" d-inline"> info@inrecruit.in</div>
+      <div class=" d-inline fw-bold">E-Mail :</div>
+      <div class=" d-inline"> cv@inrecruit.in</div>
 
     </div>
 
-    <div className='d-inline p-2'>
+    {/* <div className='d-inline p-2'>
       <div class=" d-inline fw-bold">job-Enquiry:</div>
-      <div class=" d-inline">cv@inrecruit.in</div>
+      <div class=" d-inline"></div>
 
-    </div>
+    </div> */}
   </div>
   <div className="col mx-auto d-block">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.233692197643!2d80.1710977148219!3d13.040495216397233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f1a5436ac9%3A0x1b49c88cf925c255!2sInRecruit%20HR%20Services%20Private%20Limited!5e0!3m2!1sen!2sin!4v1649867087869!5m2!1sen!2sin" 

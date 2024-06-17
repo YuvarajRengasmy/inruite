@@ -10,8 +10,9 @@ export const Careers = () => {
       <div className="header">
         <Header />
       </div>
+   
 
-      <div className="container mt-5">
+      <div className="container " style={{ marginTop: '120px' }}>
         <div className="row">
           <div className="col-12">
             <div className="about-header">
@@ -32,13 +33,8 @@ export const Careers = () => {
 
       <div className="container my-5">
         <div className="row">
-          <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
-            <div className="process-image align-self-center">
-              <img src="https://img.freepik.com/premium-photo/human-resources-people-networking-concept_31965-1980.jpg" alt="Human Resources and Networking Concept" style={{height:'400px'}} className="img-fluid w-100  mx-auto d-block" />
-            </div>
-          </div>
-          <div className="col-lg-6 col-md-12">
-            <div className="card rounded-0 card-body p-5 h-100">
+        <div className="col-lg-6 col-md-12">
+            <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:'#0f2239',color:'#fff'}}>
               <h5 className="card-title text-capitalize fw-bold text-center">A Career That Fits Your Calling</h5>
               <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
                 Achieve seamless integration in resource-intensive partnerships through leading niche markets. Cultivate personalized customer service with innovative concepts. Dynamically enhance resource distribution for cutting-edge customer support. Objectively innovate empowered manufactured products on parallel platforms. Holistically dominate scalable testing procedures for dependable supply chains.
@@ -46,6 +42,13 @@ export const Careers = () => {
               <p className="card-text text-center fw-bold mt-3" style={{ textAlign: 'justify', fontSize: '14px' }}>WORKING WITH US</p>
             </div>
           </div>
+          <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
+          <div className="image-card">
+          <img src="https://www.shutterstock.com/image-photo/happy-mid-aged-business-woman-600nw-2353012835.jpg" alt="" className="img-fluid card1 h-100 p-0  w-100  mx-auto d-block" />
+        </div>
+           
+          </div>
+      
         </div>
       </div>
 

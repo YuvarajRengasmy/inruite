@@ -4,57 +4,56 @@ import Footer from '../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
 
-export const Process = () => {
+const Process = () => {
   return (
     <div>
-      <div className="header">
-        <Header />
-      </div>
+      <Header />
 
-      <div className="container" style={{ marginTop: '120px' }}>
+      {/* Navigation Section */}
+      <section className="container" style={{ marginTop: '120px' }}>
         <div className="row">
           <div className="col-12">
-            <div className="about-header">
-              <div className="d-flex flex-row gap-3">
-                <div className="home-link">
-                  <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Home</Link>
-                </div>
-                <div className="about-link">
-                  <Link to="/Process" className="text-decoration-none" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Process</Link>
-                </div>
+            <div className="about-header d-flex flex-row gap-3">
+              <div className="home-link">
+                <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Home</Link>
+              </div>
+              <div className="about-link">
+                <Link to="/Process" className="text-decoration-none" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Process</Link>
               </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <hr />
+      <hr className='p-0' />
 
-      <div className="container my-5">
+      {/* Recruitment Objective Section */}
+      <section className="container my-5">
         <div className="row">
+          <div className="col-lg-6">
+            <div className="card rounded-0 card-body p-4 h-100" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
+              <h5 className="card-title text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
+              <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
+                Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
+              </p>
+              <p className="card-text text-center fw-bold mt-3" style={{ textAlign: 'justify', fontSize: '11px' }}>
+                INRECRUIT ALWAYS STRIVES HARD TO FIND THE RIGHT PERSON FOR THE RIGHT JOB.
+              </p>
+            </div>
+          </div>
           <div className="col-lg-6">
             <div className="process-image">
               <img src="https://nicetoeat.net/wp-content/uploads/2021/05/recruiting-candidates.png" alt="Recruiting candidates" className="img-fluid w-100 h-100 mx-auto d-block" />
             </div>
           </div>
-          <div className="col-lg-6">
-            <div className="card rounded-0 card-body p-5 h-100">
-              <h5 className="card-title text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
-              <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
-                Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
-              </p>
-              <p className="card-text text-center fw-bold mt-3" style={{ textAlign: 'justify', fontSize: '14px' }}>
-                INRECRUIT ALWAYS STRIVES HARD TO FIND THE RIGHT PERSON FOR THE RIGHT JOB.
-              </p>
-            </div>
-          </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container my-5">
+      {/* DataBank Section */}
+      <section className="container my-5">
         <div className="row">
           <div className="col-sm-12">
-            <div className="card card-body p-4">
+            <div className="card card-body border-0 p-4 shadow">
               <h4 className="fw-bold">DataBank</h4>
               <p className="lh-base" style={{ textAlign: 'justify' }}>
                 We maintain a databank i.e., a database of profiles. Whenever someone approaches us for a job, we will add their details to the data bank.
@@ -62,16 +61,17 @@ export const Process = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container my-5">
+      {/* Detailed Hiring Process Section */}
+      <section className="container my-5">
         <div className="row">
           <div className="col-lg-6">
             <div className="card rounded-0 h-100">
-              <div className="card-header rounded-0">
+              <div className="card-header rounded-0" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
                 <h4 className="fw-bold text-center">Detailed Hiring Process</h4>
               </div>
-              <div className="card-body p-5">
+              <div className="card-body p-4">
                 {[
                   "Consultation with the Client Company - Our consultant will either visit or call the client company for a detailed discussion on the search criteria and current efforts to fill the role.",
                   "Screening of Candidates - Based on the requirements, our consultant will prepare a list of candidates from our databank.",
@@ -92,7 +92,7 @@ export const Process = () => {
           </div>
           <div className="col-lg-6">
             <div className="card rounded-0 h-100">
-              <div className="card-header rounded-0">
+              <div className="card-header rounded-0" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
                 <h4 className="fw-bold text-center">Our Recruitment Process</h4>
               </div>
               <div className="card-body">
@@ -119,9 +119,10 @@ export const Process = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container">
+      {/* Aftercare Services Section */}
+      <section className="container my-5">
         <div className="row">
           <div className="col-lg-6">
             <div className="card card-body p-4">
@@ -140,18 +141,17 @@ export const Process = () => {
             </div>
           </div>
         </div>
-      </div>
+      </section>
 
-      <div className="container mt-5" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
+      {/* Contact Us Section */}
+      <section className="container mt-5" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
         <div className="d-flex flex-row justify-content-between align-items-center px-3 py-4">
           <div>Reach out to know about any recent openings.</div>
           <Link to="/contact" className="btn btn-sm fw-semibold text-capitalize" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Contact Us</Link>
         </div>
-      </div>
+      </section>
 
-      <div className="footer">
-        <Footer />
-      </div>
+      <Footer />
     </div>
   );
 }

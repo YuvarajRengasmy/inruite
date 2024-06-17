@@ -25,10 +25,12 @@ export const Clients = () => {
           </div>
         </div>
       </div>
+      <hr  className='p-0'/>
+
       <div className="container my-5">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4">
-            <div className="card rounded-0 card-body p-5 h-100">
+            <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:'#0f2239',color:'#fff'}}>
               <h5 className="card-title text-capitalize fw-bold text-center">Our Clients</h5>
               <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
                 A true partnership is a two-way street — ideas and information flow openly and regularly, based on a foundation of mutual trust and respect for one another’s expertise — and our clients embrace this philosophy. Synergistic and goal-oriented relationships are the best and most effective, and a long-term relationship adds the value of extensive industry and company knowledge and relationships.
@@ -41,7 +43,7 @@ export const Clients = () => {
           </div>
           <div className="col-lg-6 col-md-12 mb-4">
             <div className="client-image">
-              <img src="https://images.inc.com/uploaded_files/image/1920x1080/getty_512155019_117354.jpg" alt="" className="img-fluid w-100 h-100 mx-auto d-block" />
+              <img src="https://img.freepik.com/free-photo/happy-couple-shaking-hands-with-real-estate-agent-after-successful-agreement-office_637285-6889.jpg" alt="" style={{height:'500px'}} className="img-fluid w-100  mx-auto d-block" />
             </div>
           </div>
         </div>
@@ -49,7 +51,10 @@ export const Clients = () => {
       <div className="container my-5">
         <div className="row">
           <div className="col-12">
-            <div className="d-flex flex-wrap justify-content-center">
+            <div className="d-flex flex-wrap justify-content-center shadow">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />
               <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFL7sbNBCPzO2_tTU_HeNlpE3ernbduQzKaQ&s" alt="imgfluid" className="img-fluid m-2" style={{ width: '150px', height: 'auto' }} />

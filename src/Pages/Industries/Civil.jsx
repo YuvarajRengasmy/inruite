@@ -31,7 +31,7 @@ const Civil = () => {
                 <div className="row g-5">
                     <div className="col-lg-3 d-none d-lg-block">
                         <div className="list-group bg-dark text-white small-caps">
-                            <Link to="/Civil" className="list-group-item list-group-item-action active">Civil & Construction</Link>
+                            <Link to="/Civil" className="list-group-item list-group-item-action active" >Civil & Construction</Link>
                             <Link to="/Engineering" className="list-group-item list-group-item-action">Engineering</Link>
                             <Link to="/Hospitality" className="list-group-item list-group-item-action">Hospitality</Link>
                             <Link to="/Energy-&-Resources" className="list-group-item list-group-item-action">Energy & Resource</Link>
