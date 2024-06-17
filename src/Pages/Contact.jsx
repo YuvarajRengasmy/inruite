@@ -25,11 +25,11 @@ export const Contact = () => {
         </div>
       </div>
 
-      <div className="container-fluid" style={{ marginTop: '125px', background: '#eceff3' }}>
+      <div className="container-fluid my-5" style={{ background: '#eceff3' }}>
         <div className="container">
         <div className="row g-5" >
        
-<div className="col-md-6" >
+<div className="col-lg-6" >
 <h2 class='mb-5 fw-semibold text-center'>Get In Touch With Us</h2>
   <div class="row mb-3">
     <div class="col">
@@ -71,7 +71,7 @@ export const Contact = () => {
 </div>
 
 
-<div className="col-md-6 " style={{ background: '#fff' }}>
+<div className="col-lg-6 " style={{ background: '#fff' }}>
   <h5 className='p-3'>Our Address</h5>
   <p className='p-3' style={{textAlign:'justify'}}>InRecruit HR Services Private Limited <br />
     Daaru Complex, No. 17/A2, 3rd Floor, Gandhi Road, <br />Alwarthirunagar, Chennai - 600087. India</p>
@@ -96,9 +96,9 @@ export const Contact = () => {
 
     </div> */}
   </div>
-  <div className="col mx-auto d-block">
+  <div className="col text-center">
        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3887.233692197643!2d80.1710977148219!3d13.040495216397233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266f1a5436ac9%3A0x1b49c88cf925c255!2sInRecruit%20HR%20Services%20Private%20Limited!5e0!3m2!1sen!2sin!4v1649867087869!5m2!1sen!2sin" 
-       style={{width:"500px",height:"200px",border:"0"}} allowfullscreen="" loading="lazy"></iframe>
+       style={{width:"500px",height:"200px",border:"0"}} allowfullscreen="" loading="lazy" className='d-none d-md-inline'></iframe>
   </div>
 
  

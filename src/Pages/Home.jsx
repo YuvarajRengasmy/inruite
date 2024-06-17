@@ -23,8 +23,8 @@ export const Home = () => {
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2 "></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"  aria-label="Slide 3 "></button>
     </div>
-    <div className="carousel-inner" style={{height:'95vh'}}>
-      <div className="carousel-item active" >
+    <div className="carousel-inner" >
+      <div className="carousel-item active" style={{height:'95vh'}}>
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none"}} autoPlay muted loop controls>
               <source src={Video1} type="video/mp4" />
@@ -37,7 +37,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item" >
+      <div className="carousel-item" style={{height:'95vh'}}>
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video2} type="video/mp4" />
@@ -50,7 +50,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item" >
+      <div className="carousel-item" style={{height:'95vh'}}>
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video3} type="video/mp4" />
@@ -141,8 +141,8 @@ export const Home = () => {
 
 
 <div class="container my-5">
-  <div class="row">
-    <div class="col-md-6 mb-4 mb-md-0">
+  <div class="row gy-5">
+    <div class="col-lg-6 mb-4 mb-md-0">
       <div class="position-relative h-100">
         <img src="https://imageio.forbes.com/specials-images/imageserve/64a499c7ed583f23248aa486/Black-male-professional-presenting-at-business-meeting/960x0.jpg?height=474&width=711&fit=bounds" alt="image" class="img-fluid mx-auto d-block h-100 hover-card1" />
         <div class="position-absolute bottom-0 start-50 translate-middle-x w-100 p-3" style={{backgroundColor: "rgba(0, 0, 0, 0.5)", color:" white"}}>
@@ -153,7 +153,7 @@ export const Home = () => {
         </div>
       </div>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <h4 class="fw-bold">Mission of our company to give best service to customers.</h4>
       <p class="lh-lg" style={{textAlign: "justify"}}>
         We are one of the top Human Resource (HR) consultants, providing specialist advice and services to help
@@ -176,7 +176,7 @@ export const Home = () => {
 
 <div className="container my-5">
       <div className="row g-5">
-        <div className="col-md-4">
+        <div className="col-lg-4">
           <h4 className="h1 text-center  fw-semibold">Our Core Values</h4>
           <hr />
           <h5 className=" fw-semibold lh-base" style={{  fontSize: "1.28rem",wordSpacing:'30px' }}>
@@ -192,7 +192,7 @@ export const Home = () => {
            
           </h5>
         </div>
-        <div className="col-md-8 align-self-center">
+        <div className="col-lg-8 align-self-center">
           <p className="lh-sm fw-light  " style={{ fontSize: "1rem", fontWeight: 300, textAlign: "justify" }}>
             InRecruit HR Services Private Limited ensures that our recruits meet the expectations of our clients, ensuring that the right candidates with the desired qualifications and relevant work experience come on board.
           </p>
@@ -225,7 +225,7 @@ export const Home = () => {
 
     <div class="container my-5">
   <div class="row">
-    <div class="col-md-4 ">
+    <div class="col-lg-4 ">
       <div class="card h-100 rounded-0">
         <div class="card-body p-4">
           <h4 class="fw-bold h2">Our Practice Area</h4>
@@ -244,7 +244,7 @@ export const Home = () => {
         </div>
       </div>
     </div>
-    <div class="col-md-8 ">
+    <div class="col-lg-8 ">
       <div class="row">
         <div class="col-md-6 col-sm-12 my-3">
           <div class="card h-100">
@@ -364,7 +364,7 @@ export const Home = () => {
   </div>
   <div className="container my-5">
     <div className="row g-3">
-      <div className="col-md-6">
+      <div className="col-lg-6">
         <div className="card rounded-0 border-0  hover-card  h-100" >
         
         <div className="image-card">
@@ -382,7 +382,7 @@ export const Home = () => {
           </div> 
         </div>
       </div>
-      <div className="col-md-6">
+      <div className="col-lg-6">
         <div className="card rounded-0 border-0 hover-card h-100" >
         <div className="image-card">
           <img src="https://samelane.com/wp-content/uploads/2023/05/what-is-refresher-training.jpg" alt="" className="img-fluid card1 h-100 p-0" />
@@ -414,7 +414,7 @@ export const Home = () => {
       </div>
     </div>
         
-      <div className="container bg-light my-5  p-4">
+      <div className="container bg-light   p-4">
         <div className="row">
           <div className="col-sm-12">
             <h2 className="">Our Clients</h2>
