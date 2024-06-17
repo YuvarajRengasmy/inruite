@@ -1,6 +1,5 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IoIosArrowDown } from "react-icons/io";
 
 export const Header = () => {
   return (
@@ -27,9 +26,9 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px', color: "#fe5722" }}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px',fontWeight:'bold',color:'#0f2239' }}>
               <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <a className="nav-link active" href="/">Home</a>
               </li>
               <li className="nav-item">
                 <a className="nav-link" href="/About">About</a>
@@ -38,14 +37,14 @@ export const Header = () => {
                 <a
                   className="nav-link "
                   href="/Industries"
-                  id="navbarDropdownIndustries"
+                 
                   role="button"
-                  data-bs-toggle="dropdown"
+                
                   aria-expanded="false"
                 >
-                  Industries <IoIosArrowDown className='d-none d-lg-inline-block' />
+                  Industries 
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdownIndustries">
+                <ul className="dropdown-menu" >
                   <li><a className="dropdown-item" href="/Civil">Civil & Construction</a></li>
                   <li><a className="dropdown-item" href="/Engineering">Engineering</a></li>
                   <li><a className="dropdown-item" href="/Hospitality">Hospitality</a></li>
@@ -68,14 +67,14 @@ export const Header = () => {
                 <a
                   className="nav-link "
                   href="/Services"
-                  id="navbarDropdownServices"
+                 
                   role="button"
-                  data-bs-toggle="dropdown"
+                 
                   aria-expanded="false"
                 >
-                  Services <IoIosArrowDown className='d-none d-lg-inline-block' />
+                  Services 
                 </a>
-                <ul className="dropdown-menu" aria-labelledby="navbarDropdownServices">
+                <ul className="dropdown-menu">
                   <li><a className="dropdown-item" href="/Overseas-Recruitment">Overseas Recruitment</a></li>
                   <li><a className="dropdown-item" href="/Executive-Search">Executive Search</a></li>
                   <li><a className="dropdown-item" href="/Contract-Hiring">Contract Hiring</a></li>

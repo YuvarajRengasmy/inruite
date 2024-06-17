@@ -29,7 +29,7 @@ const Process = () => {
 
       {/* Recruitment Objective Section */}
       <section className="container my-5">
-        <div className="row">
+        <div className="row gy-4">
           <div className="col-lg-6">
             <div className="card rounded-0 card-body p-4 h-100" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
               <h5 className="card-title text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
@@ -65,7 +65,7 @@ const Process = () => {
 
       {/* Detailed Hiring Process Section */}
       <section className="container my-5">
-        <div className="row">
+        <div className="row gy-4">
           <div className="col-lg-6">
             <div className="card rounded-0 h-100">
               <div className="card-header rounded-0" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
@@ -123,7 +123,7 @@ const Process = () => {
 
       {/* Aftercare Services Section */}
       <section className="container my-5">
-        <div className="row">
+        <div className="row gy-4">
           <div className="col-lg-6">
             <div className="card card-body p-4">
               <h5 className="card-title text-center">Aftercare Services</h5>

@@ -32,7 +32,7 @@ export const Careers = () => {
       <hr className="p-0" />
 
       <div className="container my-5">
-        <div className="row">
+        <div className="row gy-4">
         <div className="col-lg-6 col-md-12">
             <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:'#0f2239',color:'#fff'}}>
               <h5 className="card-title text-capitalize fw-bold text-center">A Career That Fits Your Calling</h5>
@@ -135,15 +135,15 @@ export const Careers = () => {
         <div className="row">
           <div className="col-12">
             <div className="card card-body p-4">
-            <table class="table table-responsive table-hover table-borderless ">
-  <thead >
+            <table className="table table-responsive table-hover table-borderless ">
+  <thead  className='table-light '>
   <tr>
                   <th>S.No</th>
                   <th>Job Title</th>
-                  <th>Country</th>
+                  <th >Country</th>
                   <th>Salary</th>
-                  <th>Experience</th>
-                  <th>Job Details</th>
+                  <th className='d-none d-lg-inline'>Experience</th>
+                  <th className='d-none d-lg-inline'>Job Details</th>
                   <th>Apply</th>
                 </tr>
   </thead>
@@ -153,8 +153,8 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td>+5 Years</td>
-                  <td>nnnnnnn</td>
+                  <td  className='d-none d-lg-inline'>+5 Years</td>
+                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
                   <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
@@ -164,8 +164,8 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td>+5 Years</td>
-                  <td>nnnnnnn</td>
+                  <td  className='d-none d-lg-inline'>+5 Years</td>
+                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
                   <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
@@ -175,9 +175,9 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td>+5 Years</td>
-                  <td>nnnnnnn</td>
-                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  <td  className='d-none d-lg-inline'>+5 Years</td>
+                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
+                  <td >    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
               </tr>
