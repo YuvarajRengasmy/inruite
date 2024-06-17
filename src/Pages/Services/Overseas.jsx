@@ -9,25 +9,27 @@ export const Overseas = () => {
     <div className="header">
       <Header />
     </div>
-
-    <div className="container mt-5">
-      <div className="row">
-        <div className="col-12">
-          <div className="about-header">
-            <div className="d-flex flex-row gap-3">
-              <div className="home-link">
-                <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3 text-dark" style={{ fontVariant: 'all-small-caps', fontSize: '18px' }}>Home</Link>
-              </div>
-              <div className="about-link">
-                <Link to="/Process" className="text-decoration-none text-dark" style={{ fontVariant: 'all-small-caps', fontSize: '18px' }}>Process</Link>
-              </div>
+   <div className="container mt-5 pt-5">
+                <div className="row">
+                    <div className="col-12">
+                        <div className="about-header">
+                            <div className="d-flex flex-row gap-3">
+                                <div className="home-link">
+                                    <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3 text-dark small-caps">Home</Link>
+                                </div>
+                                <div className="about-link">
+                                    <Link to="/Services" className="text-decoration-none border-end border-3 border-dark px-3 text-dark small-caps">Services</Link>
+                                </div>
+                                <div className="about-link">
+                                    <Link to="/Overseas-Recuritment" className="text-decoration-none px-3 text-dark small-caps">Overseas Recuritment</Link>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <hr />
+            <hr className="p-0" />
+ 
 
     <div className="container my-5">
       <div className="row">

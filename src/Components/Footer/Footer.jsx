@@ -74,7 +74,7 @@ export const Footer = () => {
                   <div className="d-flex flex-column">
                     <p className='fs-6' style={{ fontSize: '0.9rem', textAlign: 'justify' }}>
                      <span className='fs-5 pe-2'  style={{ color: '#fe5722' }}><FaHome /></span> Daaru Complex, No.17/A2, 
-                    <span className='text-break  '> 3rd Floor, Gandhi Road, Alwarthirunagar, </span>
+                    <span className='text-break  '>  Gandhi Road, Alwarthirunagar, </span>
                      <span className='text-break'>  Chennai 600087, Tamilnadu, India </span>
                    
                     </p>
