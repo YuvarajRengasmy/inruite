@@ -65,7 +65,7 @@ const Civil = () => {
                                     <textarea className="form-control" placeholder="Message" rows="4"></textarea>
                                 </div>
                                 <div className="mb-3 text-center">
-                                    <button className="btn text-uppercase text-white fw-semibold" type="submit" style={{ backgroundColor: 'fe5722' }}>Submit form</button>
+                                    <button className="btn text-uppercase text-white fw-semibold" type="submit" style={{ backgroundColor: '#fe5722' }}>Submit form</button>
                                 </div>
                             </form>
                         </div>
@@ -175,51 +175,52 @@ const Civil = () => {
                     <div className="col-lg-6">
                         <h5 className="mb-3 text-center">Typical Questions Asked To Us.</h5>
                         <div className="border">
-                            <ul className="nav nav-tabs nav-justified fs-9" id="myTab" role="tablist">
-                                <li className="nav-item" role="presentation">
-                                    <a className="nav-link active" id="home-tab" data-bs-toggle="tab" href="tab-home" role="tab" aria-controls="tab-home" aria-selected="true">
-                                        FAQ1
-                                    </a>
-                                </li>
-                                <li className="nav-item" role="presentation">
-                                    <a className="nav-link" id="profile-tab" data-bs-toggle="tab" href="tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">
-                                        FAQ2
-                                    </a>
-                                </li>
-                                <li className="nav-item" role="presentation">
-                                    <a className="nav-link" id="contact-tab" data-bs-toggle="tab" href="tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">
-                                        FAQ3
-                                    </a>
-                                </li>
-                            </ul>
-                            <div className="tab-content mt-3 h-100" id="myTabContent">
-                                <div className="tab-pane fade show active p-4" id="tab-home" role="tabpanel" aria-labelledby="home-tab">
-                                    <div className="head">
-                                        <h5 className="bold">How does InRecruit find positions that fit my background?</h5>
-                                    </div>
-                                    <div className="content">
-                                        <p className="lh-base">Every engagement is overseen by a placement counsellor with experience in your field. InRecruit currently works with applicants from a variety of industries, including accounting and finance, legal and compliance, information technology, and corporate support.</p>
-                                        <p className="lh-base">In fields as diverse as financial services, legal, pharmaceuticals, entertainment, telecommunications, new media, television, and publishing, we work with Fortune 100 companies as well as inventive high-tech startups.</p>
-                                    </div>
-                                </div>
-                                <div className="tab-pane fade p-4" id="tab-profile" role="tabpanel" aria-labelledby="profile-tab">
-                                    <div className="head">
-                                        <h5 className="bold">How does InRecruit find positions that fit my background?</h5>
-                                    </div>
-                                    <div className="content">
-                                        <p className="lh-base">Every engagement is overseen by a placement counsellor with experience in your field. InRecruit currently works with applicants from a variety of industries, including accounting and finance, legal and compliance, information technology, and corporate support.</p>
-                                    </div>
-                                </div>
-                                <div className="tab-pane fade p-4" id="tab-contact" role="tabpanel" aria-labelledby="contact-tab">
-                                    <div className="head">
-                                        <h5 className="bold">Why should I choose InRecruit over other staffing agencies?</h5>
-                                    </div>
-                                    <div className="content">
-                                        <p className="lh-base">InRecruit has an established client base and strong relationships with companies to assist you in your job search. We succeed as we pay close attention to your professional objectives and match you with a position that matches your history, talents, and personal preferences, guiding you to the right career path.</p>
-                                        <p className="lh-base">Candidates also benefit from our strong track record of successful placements as InRecruit has an extremely low recruiter turnover and one of the highest retention rates in the industry. This allows us to form long-term connections with businesses, allowing us to introduce you to them.</p>
-                                    </div>
-                                </div>
-                            </div>
+                        <ul className="nav nav-tabs nav-justified fs-9" id="myTab" role="tablist">
+    <li className="nav-item" role="presentation">
+        <a className="nav-link active" id="home-tab" data-bs-toggle="tab" href="#tab-home" role="tab" aria-controls="tab-home" aria-selected="true">
+            FAQ1
+        </a>
+    </li>
+    <li className="nav-item" role="presentation">
+        <a className="nav-link" id="profile-tab" data-bs-toggle="tab" href="#tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">
+            FAQ2
+        </a>
+    </li>
+    <li className="nav-item" role="presentation">
+        <a className="nav-link" id="contact-tab" data-bs-toggle="tab" href="#tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">
+            FAQ3
+        </a>
+    </li>
+</ul>
+<div className="tab-content mt-3 h-100" id="myTabContent">
+    <div className="tab-pane fade show active p-4" id="tab-home" role="tabpanel" aria-labelledby="home-tab">
+        <div className="head">
+            <h5 className="bold">How does InRecruit find positions that fit my background?</h5>
+        </div>
+        <div className="content">
+            <p className="lh-base">Every engagement is overseen by a placement counsellor with experience in your field. InRecruit currently works with applicants from a variety of industries, including accounting and finance, legal and compliance, information technology, and corporate support.</p>
+            <p className="lh-base">In fields as diverse as financial services, legal, pharmaceuticals, entertainment, telecommunications, new media, television, and publishing, we work with Fortune 100 companies as well as inventive high-tech startups.</p>
+        </div>
+    </div>
+    <div className="tab-pane fade p-4" id="tab-profile" role="tabpanel" aria-labelledby="profile-tab">
+        <div className="head">
+            <h5 className="bold">How does InRecruit find positions that fit my background?</h5>
+        </div>
+        <div className="content">
+            <p className="lh-base">Every engagement is overseen by a placement counsellor with experience in your field. InRecruit currently works with applicants from a variety of industries, including accounting and finance, legal and compliance, information technology, and corporate support.</p>
+        </div>
+    </div>
+    <div className="tab-pane fade p-4" id="tab-contact" role="tabpanel" aria-labelledby="contact-tab">
+        <div className="head">
+            <h5 className="bold">Why should I choose InRecruit over other staffing agencies?</h5>
+        </div>
+        <div className="content">
+            <p className="lh-base">InRecruit has an established client base and strong relationships with companies to assist you in your job search. We succeed as we pay close attention to your professional objectives and match you with a position that matches your history, talents, and personal preferences, guiding you to the right career path.</p>
+            <p className="lh-base">Candidates also benefit from our strong track record of successful placements as InRecruit has an extremely low recruiter turnover and one of the highest retention rates in the industry. This allows us to form long-term connections with businesses, allowing us to introduce you to them.</p>
+        </div>
+    </div>
+</div>
+
                         </div>
                         <div className="row mt-3 p-4" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
                             <div className="d-flex flex-row align-items-center justify-content-between w-100">
