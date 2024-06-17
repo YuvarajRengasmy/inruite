@@ -43,7 +43,7 @@ export const Clients = () => {
           </div>
           <div className="col-lg-6 col-md-12 mb-4">
             <div className="client-image">
-              <img src="https://img.freepik.com/free-photo/happy-couple-shaking-hands-with-real-estate-agent-after-successful-agreement-office_637285-6889.jpg" alt="" className="img-fluid w-100 h-100 mx-auto d-block" />
+              <img src="https://img.freepik.com/free-photo/happy-couple-shaking-hands-with-real-estate-agent-after-successful-agreement-office_637285-6889.jpg" alt="" style={{height:'500px'}} className="img-fluid w-100  mx-auto d-block" />
             </div>
           </div>
         </div>

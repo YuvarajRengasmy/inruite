@@ -107,7 +107,7 @@ const Payroll = () => {
               </div>
               <div className="card-body p-4">
                 {benefits.map((item, index) => (
-                  <p className="card-text lh-base" style={{ textAlign: 'justify' }} key={index}>
+                  <p className="card-text lh-base"  key={index}>
                     <span className='fw-bold'>{index + 1}. </span> {item}
                   </p>
                 ))}
@@ -120,7 +120,7 @@ const Payroll = () => {
               </div>
               <div className="card-body p-4">
                 {offers.map((item, index) => (
-                  <p className="card-text lh-base" style={{ textAlign: 'justify' }} key={index}>
+                  <p className="card-text lh-base"  key={index}>
                     <span className='fw-bold'>{index + 1}. </span> {item}
                   </p>
                 ))}

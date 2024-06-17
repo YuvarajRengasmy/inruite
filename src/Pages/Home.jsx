@@ -23,8 +23,8 @@ export const Home = () => {
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2 "></button>
       <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"  aria-label="Slide 3 "></button>
     </div>
-    <div className="carousel-inner">
-      <div className="carousel-item active" style={{height:'95vh'}}>
+    <div className="carousel-inner" style={{height:'95vh'}}>
+      <div className="carousel-item active" >
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none"}} autoPlay muted loop controls>
               <source src={Video1} type="video/mp4" />
@@ -37,7 +37,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item" style={{height:'95vh'}}>
+      <div className="carousel-item" >
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video2} type="video/mp4" />
@@ -50,7 +50,7 @@ export const Home = () => {
           <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
         </div>
       </div>
-      <div className="carousel-item" style={{height:'95vh'}}>
+      <div className="carousel-item" >
       <div className="embed-responsive embed-responsive-16by9">
             <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
               <source src={Video3} type="video/mp4" />
@@ -86,7 +86,7 @@ export const Home = () => {
 
         <div class="container my-5">
   <div class="row justify-content-center  g-3">
-    <div class="col-lg-3">
+    <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card border-0 rounded-0 shadow-lg hover-card text-center" style={{width:'15rem',height:'20rem'}}>
         <img src="https://www.ismartrecruit.com/upload/blog/main_image/social-media-recruitment.webp"  class="card-img-top img-fluid  rounded-0  h-50" alt="Recruiting"/>
         <div class="card-body">
@@ -96,7 +96,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="card border-0  rounded-0  shadow-lg h-100 hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://consultport.com/wp-content/uploads/2023/06/4-Underused-Tools-to-Streamline-Project-Management.png" class="card-img-top img-fluid  rounded-0  h-50" alt="Consulting"/>
         <div class="card-body">
@@ -106,7 +106,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3 ">
+    <div class="col-lg-3 col-md-6 col-sm-12">
       <div class="card border-0  rounded-0  shadow-lg  hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://media.publit.io/file/w_1920,h_1080,c_fit,q_80/chrmpWebsite/featured-2.png" class="card-img-top img-fluid  rounded-0   h-50" alt="Training"/>
         <div class="card-body">
@@ -116,7 +116,7 @@ export const Home = () => {
       </div>
     </div>
     
-    <div class="col-lg-3  ">
+    <div class="col-lg-3 col-md-6 col-sm-12 ">
       <div class="card border-0  rounded-0  shadow-lg hover-card" style={{width:'15rem',height:'20rem'}}>
         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7qOst_mq3nCogpvneWJmvjdVh4_Fzte6o2A&s" class="card-img-top img-fluid  rounded-0   h-50" alt="Outsourcing"/>
         <div class="card-body">
