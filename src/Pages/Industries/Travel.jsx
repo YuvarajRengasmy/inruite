@@ -37,11 +37,11 @@ const Civil = () => {
               <Link to="/Hospitality" className="list-group-item list-group-item-action">Hospitality</Link>
               <Link to="/Energy-&-Resources" className="list-group-item list-group-item-action ">Energy & Resource</Link>
               <Link to="/Manfacturing" className="list-group-item list-group-item-action">Manufacturing</Link>
-              <Link to="/IT-&-Telecom" className="list-group-item list-group-item-action active">IT & Telecom</Link>
+              <Link to="/IT-&-Telecom" className="list-group-item list-group-item-action">IT & Telecom</Link>
               <Link to="/Oil-&-Gas" className="list-group-item list-group-item-action">Oil & Gas</Link>
               <Link to="/Healthcare" className="list-group-item list-group-item-action">Healthcare</Link>
-              <Link to="/Travel-&-Tourism" className="list-group-item list-group-item-action">Travel & Tourism</Link>
-              <Link to="/FMCG" className="list-group-item list-group-item-action">FMCG</Link>
+              <Link to="/Travel-&-Tourism" className="list-group-item list-group-item-action active">Travel & Tourism</Link>
+              <Link to="/FMCG" className="list-group-item list-group-item-action active">FMCG</Link>
               <Link to="/Marine-Shipping" className="list-group-item list-group-item-action">Marine/Shipping</Link>
               <Link to="/Education" className="list-group-item list-group-item-action">Education</Link>
               <Link to="/Distribution-&-Logistics" className="list-group-item list-group-item-action">Distribution/Logistics</Link>
@@ -81,48 +81,39 @@ const Civil = () => {
               </div>
               <div className="col-lg-12">
                 <div className="content-details">
-                  <p>The Healthcare Industry is comprised of companies that offer clinical services, manufacture drugs and medical equipment, and provide healthcare-related support services like medical insurance. Its also referred to as the medical industry. These companies play a key role in the diagnosis, treatment, nursing, and management of illness, disease, and injury.</p>
+                  <p>The travel and tourism industry is one of the biggest and fastest-growing industries in the world. We are still witnessing the continued interest of many people preferring to spend their spare time on travel. This has given an enormous opportunity for travel and tourism-related business like travel agencies and tour operators to cater to the needs of this emerging demand.</p>
                 </div>
-              
-
               </div>
               <div className="content-head mb-2">
-                <h4 className="fw-normal">Key Segments of the health care industry?</h4>
+                <h4 className="fw-normal">What is the tourism industry?</h4>
               </div>
-              <h6>Healthcare Providers </h6>
               <div className="col-lg-12">
                 <div className="content-details">
-                  <p>1. Hospitals and other medical centres: They conduct diagnosis and treatment of diseases, teaching, research, and training. Hospitals are equipped with medical equipment and facilities of all kinds including operating theatres where medical professionals conduct major surgical procedures...</p>
-                </div>
-                <div className="content-details">
-                  <p>2. Nursing homes and rehabilitative centres: They offer both short- and long-term care services. Short-term care may include rehabilitative care after undergoing surgery, illness or injury. This may include physical therapy, occupational therapy or speech-language therapy. Long-term care is offered to the sick, elderly and disabled..</p>
-                </div>
-                <div className="content-details">
-                  <p>3. Ambulatory service providers: These are physicians and other health professionals who provide outpatient medical services or non-hospital-based care. For outpatient-based care, a patient visiting a hospital or an outpatient clinic gets diagnosed, treated, and released on the same day...</p>
-                </div>
-                <div className="content-details">
-                  <h5>Healthcare Financiers </h5>
-                  <p>These are government agencies and private companies that provide health insurance policies and fund healthcare services. They are tasked with pooling medical funds collected through employer contributions or individual insurance policies and oversee payment for services rendered. Healthcare financiers outline how people access health care, the kind of healthcare to be covered, and the allocation of healthcare services.</p>
-                </div>
-                <div className="content-details">
-                  <h5>Life Sciences</h5>
-                  <p>This segment includes; pharmaceutical firms which make drugs and other chemical products needed for the provision of health care; manufacturers who make high-tech medical equipment; and biotechnology firms that conduct research and development to create new drugs, equipment, and treatment methods. Others who also fall in this segment are all those who provide other miscellaneous scientific services for the diagnosis, treatment, and monitoring of patients....</p>
+                  <p>Tourism is the act of travelling to a different location for either business or pleasure for more than one consecutive year.</p>
                 </div>
               </div>
+              <div className="content-head mb-2">
+                <h4 className="fw-normal">What is the travel industry?</h4>
+              </div>
+              <div className="col-lg-12">
+                <div className="content-details">
+                  <p>Travel refers to moving from one location to another. It can be long-distance, short-distance, overseas or domestic travel and can cover a wide variety of different travel purposes.</p>
+                </div>
+              </div>
+             
 
               <div className="row mt-4 g-2">
                 <div className="col-12">
                   <div className="content-head">
-                    <h3>Healthcare Value Chain</h3>
-                    <p>1. Administrative(back office)</p>
-                    <p>2. Information management</p>
-                    <p>3. Clinical services</p>
-                    <p>4. Allied health</p>
-                    <p>5. Support services</p>
+                    <h3>Sectors Within the Travel and Tourism Industry</h3>
+                    <p>1. Transportation</p>
+                    <p>2. Accommodation</p>
+                    <p>4. Entertainment</p>
+                    
 
                   </div>
                 </div>
-                <h5>Benefits of Working in HealthCare Industry:</h5>
+                <h5>Benefits of Working in Travel & Tourism Industry:</h5>
                 <div className="content-card row gy-2">
                   <div className="col-lg-4">
                     <div className="card border-0 rounded-0 shadow p-4 border-start border-warning border-5 h-100">
@@ -151,28 +142,28 @@ const Civil = () => {
           <div className="row g-5">
             <div className="col-lg-6">
               <div className="content-head">
-                <h4 className="fw-semibold text-uppercase text-center">Jobs in Healthcare Industry</h4>
+                <h4 className="fw-semibold text-uppercase text-center">Jobs in Travel & Tourism Industry</h4>
                 <p className="lh-base">The decision to work in practice or industry has to be made based on what you want from your career. Ask yourself a series of questions and locate what is important to you; is it the salary or the importance of the work you produce? Is it variety, people, or your day-to-day work-life balance?</p>
                 <p className="lh-base">Don’t forget that you can change your mind, although it should be noted that moving from practice into the industry is much easier than the other way around. If you want to try both, consider going into practice first..</p>
               </div>
               <div className="row">
                 <div className="col-lg-6">
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Physician Assistants</li>
-                    <li className="list-group-item">Nurses</li>
-                    <li className="list-group-item">Dentists</li>
-                    <li className="list-group-item">Technologists and technicians</li>
-                    <li className="list-group-item">Doctor</li>
+                    <li className="list-group-item">Amusement and recreation attendant</li>
+                    <li className="list-group-item">Concierge</li>
+                    <li className="list-group-item">Cruise ship director</li>
+                    <li className="list-group-item">Curator</li>
+                    <li className="list-group-item">Recreation worker</li>
 
                   </ul>
                 </div>
                 <div className="col-lg-6">
                   <ul className="list-group list-group-flush">
-                    <li className="list-group-item">Physical Therapy Assistant</li>
-                    <li className="list-group-item">Occupational Therapist Aide</li>
-                    <li className="list-group-item">Nursing Assistant</li>
-                    <li className="list-group-item">Medical Transcriptionist</li>
-                    <li className="list-group-item">Therapists and rehabilitation specialists</li>
+                    <li className="list-group-item">Holiday/Travel Agent</li>
+                    <li className="list-group-item">Tourism Manager</li>
+                    <li className="list-group-item">Tourist Guide</li>
+                    <li className="list-group-item">Airlines Staff</li>
+                    <li className="list-group-item">Travel Counselor</li>
 
                   </ul>
 

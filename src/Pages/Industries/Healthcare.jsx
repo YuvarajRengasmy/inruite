@@ -37,9 +37,9 @@ const Civil = () => {
                             <Link to="/Hospitality" className="list-group-item list-group-item-action">Hospitality</Link>
                             <Link to="/Energy-&-Resources" className="list-group-item list-group-item-action ">Energy & Resource</Link>
                             <Link to="/Manfacturing" className="list-group-item list-group-item-action">Manufacturing</Link>
-                            <Link to="/IT-&-Telecom" className="list-group-item list-group-item-action active">IT & Telecom</Link>
+                            <Link to="/IT-&-Telecom" className="list-group-item list-group-item-action ">IT & Telecom</Link>
                             <Link to="/Oil-&-Gas" className="list-group-item list-group-item-action">Oil & Gas</Link>
-                            <Link to="/Healthcare" className="list-group-item list-group-item-action">Healthcare</Link>
+                            <Link to="/Healthcare" className="list-group-item list-group-item-action active">Healthcare</Link>
                             <Link to="/Travel-&-Tourism" className="list-group-item list-group-item-action">Travel & Tourism</Link>
                             <Link to="/FMCG" className="list-group-item list-group-item-action">FMCG</Link>
                             <Link to="/Marine-Shipping" className="list-group-item list-group-item-action">Marine/Shipping</Link>
