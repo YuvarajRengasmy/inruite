@@ -56,18 +56,14 @@ const Overseas = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
-            <div className="card rounded-0  h-100"  style={{backgroundColor:'#0f2239',color:'#fff'}}>
-              <div className="card-header px-3">
-                <h5 className="text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
-              </div>
-              <div className="card-body px-4">
-                <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
-                Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
-                </p>
-                <p className="card-text text-center fw-bold mt-3" style={{ textAlign: 'justify', fontSize: '14px' }}>
-                  INRECRUIT ALWAYS STRIVES TO FIND THE RIGHT PERSON FOR THE RIGHT JOB.
-                </p>
-              </div>
+            <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:'#0f2239',color:'#fff'}}>
+              <h5 className="card-title text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
+              <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
+              Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
+              </p>
+              <p className="card-text text-center fw-bold text-uppercase mt-3" style={{ textAlign: 'justify', fontSize: '11px' }}>
+                Inrecurit Always Strives Hard To Find THE Right Person For The Right Job.
+              </p>
             </div>
           </div>
         </div>
@@ -109,8 +105,8 @@ const Overseas = () => {
       </section>
 
       <section className="container mt-5">
-        <p className="lh-base text-center">If you are looking for a job, please reach out to us. We can help you realize your dream.</p>
-        <div className="d-flex flex-row justify-content-between align-items-center px-3 py-4 bg-dark text-light">
+        <p className="lh-base text-center fw-bold">If you are looking for a job, please reach out to us. We can help you realize your dream.</p>
+        <div className="d-flex flex-row justify-content-between align-items-center px-3 py-4 " style={{backgroundColor:'#0f2239',color:'#fff'}}>
           <div>Reach out to know about any recent openings.</div>
           <Link to="/contact" className="btn btn-sm fw-semibold text-capitalize" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Contact Us</Link>
         </div>

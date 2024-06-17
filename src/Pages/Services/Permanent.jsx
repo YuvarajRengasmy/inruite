@@ -81,7 +81,7 @@ const Permanent = () => {
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
             <div className="process-image">
-              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRYF8_QTLuxc9r4VMDOiXGyKpY_N1rE9N7fBg&s" alt="Recruiting candidates" className="img-fluid w-100 h-100 mx-auto d-block" />
+              <img src="https://mnrsolutions.in/wp-content/uploads/2023/12/Permanent-Staffing-1.webp" alt="Recruiting candidates" className="img-fluid w-100 h-100 mx-auto d-block" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
@@ -90,8 +90,8 @@ const Permanent = () => {
               <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
               Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
               </p>
-              <p className="card-text text-center fw-bold mt-3" style={{ textAlign: 'justify', fontSize: '14px' }}>
-                INRECRUIT ALWAYS STRIVES HARD TO FIND THE RIGHT PERSON FOR THE RIGHT JOB.
+              <p className="card-text text-center fw-bold text-uppercase mt-3" style={{ textAlign: 'justify', fontSize: '11px' }}>
+                Inrecurit Always Strives Hard To Find THE Right Person For The Right Job.
               </p>
             </div>
           </div>

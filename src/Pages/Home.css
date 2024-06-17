@@ -12,7 +12,7 @@
 }
 
 .image-card{
-  background-color: rgba(0, 0, 0, 0.5); 
+  background-color: rgba(0, 0, 0, 0.4); 
 overflow: hidden;
 }
 .card1{
@@ -26,68 +26,17 @@ overflow: hidden;
 
 
 
-.card-body {
-  padding: 1rem;
-}
 
-.card-title {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-
-.card-text {
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.text-uppercase {
-  font-size: 1rem;
-  font-weight: 600;
-}
-
-h4 {
-  text-align: justify;
-  font-size: 1.5rem;
-  font-weight: 500;
-}
-
-p {
-  text-align: justify;
-  font-size: 1rem;
-  font-weight: 400;
-}
-
-.text-center {
-  font-size: 1.25rem;
-}
-
-@media (max-width: 768px) {
-  .text-uppercase {
-    font-size: 0.875rem;
-  }
-  h4 {
-    font-size: 1.25rem;
-  }
-  p {
-    font-size: 0.875rem;
-  }
-  .card-title {
-    font-size: 1.25rem;
-  }
-  .text-center {
-    font-size: 1rem;
-  }
-}
 
   .carousel-caption {
-    bottom: 40%;
+    bottom: 35%;
   }
   .carousel-caption h5 {
     font-size: 2rem;
     font-weight: 700;
   }
   .carousel-caption p {
-    font-size: 1.2rem;
+    font-size: 1.0rem;
     font-weight: 400;
   }
   .carousel-caption .btn {

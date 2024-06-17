@@ -77,13 +77,13 @@ const Campus = () => {
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
-            <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:"#0f2239",color:'#fff'}}>
+            <div className="card rounded-0 card-body p-4 h-100" style={{backgroundColor:'#0f2239',color:'#fff'}}>
               <h5 className="card-title text-capitalize fw-bold text-center">Our Recruitment Objective</h5>
               <p className="card-text lh-base mt-3" style={{ textAlign: 'justify' }}>
-                Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
+              Recruitment and selection procedures have evolved in the last few years since the job market has increasingly become candidate-driven. Recruitment is no longer confined to the organization’s wants. With an eye on hiring the best possible candidates, providing a good candidate experience has become one of our foremost priorities.
               </p>
-              <p className="card-text text-center fw-bold  mt-3" style={{ textAlign: 'justify', fontSize: '14px' }}>
-                INRECRUIT ALWAYS STRIVES HARD TO FIND THE RIGHT PERSON FOR THE RIGHT JOB.
+              <p className="card-text text-center fw-bold text-uppercase mt-3" style={{ textAlign: 'justify', fontSize: '11px' }}>
+                Inrecurit Always Strives Hard To Find THE Right Person For The Right Job.
               </p>
             </div>
           </div>

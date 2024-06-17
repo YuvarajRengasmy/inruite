@@ -84,7 +84,7 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="/Job-Fair">Job Fair</a></li>
                   <li><a className="dropdown-item" href="/Campus-Recuritment">Campus Recruitment</a></li>
                   <li><a className="dropdown-item" href="/Technical-Trade-Test">Technical Trade Test</a></li>
-                  <li><a className="dropdown-item" href="/Ticketing">Ticketing</a></li>
+                  <li><a className="dropdown-item" href="/Ticketing">Ticketing & Emigration</a></li>
                 </ul>
               </li>
               <li className="nav-item">
