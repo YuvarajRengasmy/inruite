@@ -26,7 +26,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px',fontWeight:'bold',color:'#0f2239' }}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px',fontWeight:'bold' }}>
               <li className="nav-item">
                 <a className="nav-link active" href="/">Home</a>
               </li>

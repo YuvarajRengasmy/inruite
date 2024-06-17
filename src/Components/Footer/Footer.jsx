@@ -9,7 +9,7 @@ export const Footer = () => {
        
         <div className="row g-3 justify-content-center">
           {/* Company Logo and Description */}
-          <div className="col-12 col-sm-6 col-md-4 ">
+          <div className="col-12 col-sm-6 col-lg-4 ">
             <div className="footer-logo">
               <a href="#">
                 <img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
@@ -36,7 +36,7 @@ export const Footer = () => {
           </div>
 
           {/* Useful Links */}
-          <div className="col-12 col-sm-6 col-md-4 mt-4">
+          <div className="col-12 col-sm-6 col-lg-5 mt-4">
             <div className="link-header">
               <h4 className="text-capitalize fw-bold text-center">Useful Links</h4>
             </div>
@@ -57,19 +57,19 @@ export const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="col-12 col-sm-6 col-md-3 mt-4">
+          <div className="col-12 col-sm-6 col-lg-3 mt-4">
             <div className="link-header">
               <h4 className="text-capitalize text-center">Contact</h4>
             </div>
             <div className="contact-details">
               {[
-                { icon: FaHome, text: 'Daaru Complex, No.17/A2,3rd Floor, Gandhi Road, Alwarthirunagar, Chennai 600087, Tamilnadu, India' },
+                { icon: FaHome, text: 'Daaru Complex, No.17/A2, Gandhi Road, Alwarthirunagar, Chennai-600087, Tamilnadu, India' },
                 { icon: IoIosMail, text: 'cv@inrecruit.in' },
                 { icon: FaMobile, text: '+91-98403 11684' },
               ].map(({ icon: Icon, text }, index) => (
-                <div key={index} className="d-flex flex-row align-items-center justify-content-start gap-2">
-                  <Icon style={{ color: '#fe5722', fontSize: '1.5rem' }} />
-                  <p className='fs-6' style={{ fontSize: '0.9rem', }}>{text}</p>
+                <div key={index} >
+               
+                  <p className='fs-6 text-break' style={{ fontSize: '0.9rem', }}>  <span><Icon style={{ color: '#fe5722', fontSize: '1rem' }} /></span> {text}</p>
                 </div>
               ))}
             </div>
