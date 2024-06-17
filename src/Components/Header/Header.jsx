@@ -50,7 +50,7 @@ export const Header = () => {
                   <li><a className="dropdown-item" href="/Engineering">Engineering</a></li>
                   <li><a className="dropdown-item" href="/Hospitality">Hospitality</a></li>
                   <li><a className="dropdown-item" href="/Energy-&-Resources">Energy & Resources</a></li>
-                  <li><a className="dropdown-item" href="/Manufacturing">Manufacturing</a></li>
+                  <li><a className="dropdown-item" href="/Manfacturing">Manufacturing</a></li>
                   <li><a className="dropdown-item" href="/IT-&-Telecom">IT & Telecom</a></li>
                   <li><a className="dropdown-item" href="/Oil-&-Gas">Oil & Gas</a></li>
                   <li><a className="dropdown-item" href="/Healthcare">Healthcare</a></li>
