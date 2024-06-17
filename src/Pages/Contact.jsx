@@ -71,7 +71,7 @@ export const Contact = () => {
 </div>
 
 
-<div className="col-md-6" style={{ background: '#fff' }}>
+<div className="col-md-6 " style={{ background: '#fff' }}>
   <h5 className='p-3'>Our Address</h5>
   <p className='p-3' style={{textAlign:'justify'}}>InRecruit HR Services Private Limited <br />
     Daaru Complex, No. 17/A2, 3rd Floor, Gandhi Road, <br />Alwarthirunagar, Chennai - 600087. India</p>

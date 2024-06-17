@@ -71,7 +71,7 @@ export const Adminroute = () => {
           <Route path='/Permanent-Staffing' element={<Permanent/>}/>
           <Route path='Payroll-Management' element={<Payroll/>}/>
           <Route path='/Job-Fair' element={<Job/>}/>
-          <Route path='/Campus-Recruitment' element={<Campus/>}/>
+          <Route path='/Campus-Recuritment' element={<Campus/>}/>
           <Route path='/Technical-Trade-Test' element={<Techincal/>}/>
           <Route path='/Ticketing' element={<Ticket/>}/>
 
