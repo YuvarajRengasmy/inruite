@@ -33,8 +33,8 @@ export const Careers = () => {
       <div className="container my-5">
         <div className="row">
           <div className="col-lg-6 col-md-12 mb-4 mb-lg-0">
-            <div className="process-image align-items-center">
-              <img src="https://img.freepik.com/premium-photo/human-resources-people-networking-concept_31965-1980.jpg" alt="Human Resources and Networking Concept" className="img-fluid w-100 h-100 mx-auto d-block" />
+            <div className="process-image align-self-center">
+              <img src="https://img.freepik.com/premium-photo/human-resources-people-networking-concept_31965-1980.jpg" alt="Human Resources and Networking Concept" style={{height:'400px'}} className="img-fluid w-100  mx-auto d-block" />
             </div>
           </div>
           <div className="col-lg-6 col-md-12">
@@ -132,8 +132,10 @@ export const Careers = () => {
         <div className="row">
           <div className="col-12">
             <div className="card card-body p-4">
-              <table className="table">
-                <tr>
+            <table class="table table-responsive table-hover table-borderless ">
+  <thead >
+  <tr>
+                  <th>S.No</th>
                   <th>Job Title</th>
                   <th>Country</th>
                   <th>Salary</th>
@@ -141,17 +143,50 @@ export const Careers = () => {
                   <th>Job Details</th>
                   <th>Apply</th>
                 </tr>
-              </table>
-              <div className="d-flex flex-row align-items-center justify-content-between">
-                <div className="job-title">AI</div>
-                <div className="country">London</div>
-                <div className="salary d-none d-lg-inline">$30000</div>
-                <div className="experience  d-none d-lg-inline">5 years</div>
-                <div className="job-details  d-none d-lg-inline">nnnnnnnnnnnnnn</div>
-                <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+  </thead>
+  <tbody>
+  <tr>
+              <th>01</th>
+                  <td>AI</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                  <td>+5 Years</td>
+                  <td>nnnnnnn</td>
+                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
-                </button>
-              </div>
+                </button></td>
+              </tr>
+              <tr>
+              <th>02</th>
+                  <td>AI</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                  <td>+5 Years</td>
+                  <td>nnnnnnn</td>
+                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  apply now
+                </button></td>
+              </tr>
+              <tr>
+              <th>03</th>
+                  <td>AI</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                  <td>+5 Years</td>
+                  <td>nnnnnnn</td>
+                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  apply now
+                </button></td>
+              </tr>
+  </tbody>
+</table>
+              <table className="table table-responsive table-hover">
+          
+              
+          
+              </table>
+            
+            
             </div>
           </div>
         </div>
