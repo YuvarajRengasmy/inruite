@@ -91,37 +91,45 @@ export const Careers = () => {
                     </div>
                     <div className="modal-body">
                       <form>
-                        <div className="mb-3">
-                          <label className="form-label" htmlFor="basic-form-name">Name</label>
-                          <input className="form-control" id="basic-form-name" type="text" placeholder="Name" />
+                        <div class="row mb-3">
+                          <div class="col">
+                            <label className="form-label fw-bold" htmlFor="basic-form-name">Name</label>
+                            <input className="form-control" id="basic-form-name" type="text" placeholder="Name" />
+                          </div>
+                          <div class="col">
+                            <label className="form-label fw-bold" htmlFor="basic-form-email">Email address</label>
+                            <input className="form-control" id="basic-form-email" type="email" placeholder="Email Address" />
+                          </div>
                         </div>
-                        <div className="mb-3">
-                          <label className="form-label" htmlFor="basic-form-email">Email address</label>
-                          <input className="form-control" id="basic-form-email" type="email" placeholder="Email Address" />
-                        </div>
-                        <div className="mb-3">
-                          <label className="form-label" htmlFor="basic-form-number">Phone Number</label>
+                        <div class="row mb-3">
+                          <div class="col">
+                          <label className="form-label fw-bold" htmlFor="basic-form-number">Phone Number</label>
                           <input className="form-control" id="basic-form-number" type="text" placeholder="Phone Number" />
+                          </div>
+                          <div class="col">
+                            <label className="form-label fw-bold" htmlFor="basic-form-Location">Current Location</label>
+                            <input className="form-control" id="basic-form-Location" type="email" placeholder="Current Location" />
+                          </div>
                         </div>
+                       
+                      
                         <div className="mb-3">
-                          <label className="form-label">Upload Image</label>
+                          <label className="form-label fw-bold">Upload Image</label>
                           <input className="form-control" type="file" />
                         </div>
                         <div className="mb-3">
-                          <label className="form-label" htmlFor="basic-form-textarea">Description</label>
-                          <textarea className="form-control" id="basic-form-textarea" rows="4" placeholder="Description"></textarea>
+                          <label className="form-label fw-bold" htmlFor="basic-form-textarea">Message</label>
+                          <textarea className="form-control" id="basic-form-textarea" rows="4" placeholder="Message"></textarea>
                         </div>
-                        <div className="mb-3 form-check">
-                          <input className="form-check-input" id="basic-form-checkbox" type="checkbox" />
-                          <label className="form-check-label" htmlFor="basic-form-checkbox">Remember me</label>
-                        </div>
-                        <button className="btn" type="submit" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Submit</button>
-                      </form>
+                     
+                    
+                        </form>
                     </div>
                     <div className="modal-footer">
                       <button type="button" className="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                      <button type="button" className="btn" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Save changes</button>
+                      <button type="button" className="btn" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Submit</button>
                     </div>
+                    
                   </div>
                 </div>
               </div>
@@ -135,15 +143,15 @@ export const Careers = () => {
         <div className="row">
           <div className="col-12">
             <div className="card card-body p-4">
-            <table className="table table-responsive table-hover table-borderless ">
+            <table className="table table-responsive table-borderless ">
   <thead  className='table-light '>
   <tr>
                   <th>S.No</th>
                   <th>Job Title</th>
                   <th >Country</th>
                   <th>Salary</th>
-                  <th className='d-none d-lg-inline'>Experience</th>
-                  <th className='d-none d-lg-inline'>Job Details</th>
+                  <th className=''>Experience</th>
+                  <th className=''>Job Details</th>
                   <th>Apply</th>
                 </tr>
   </thead>
@@ -153,8 +161,8 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td  className='d-none d-lg-inline'>+5 Years</td>
-                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
+                  <td  className=''>+5 Years</td>
+                  <td  className=''>nnnnnnn</td>
                   <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
@@ -164,8 +172,8 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td  className='d-none d-lg-inline'>+5 Years</td>
-                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
+                  <td  className=''>+5 Years</td>
+                  <td  className=''>nnnnnnn</td>
                   <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
@@ -175,8 +183,8 @@ export const Careers = () => {
                   <td>AI</td>
                   <td>New York</td>
                   <td>$30,000</td>
-                  <td  className='d-none d-lg-inline'>+5 Years</td>
-                  <td  className='d-none d-lg-inline'>nnnnnnn</td>
+                  <td  className=''>+5 Years</td>
+                  <td  className=''>nnnnnnn</td>
                   <td >    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
