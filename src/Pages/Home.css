@@ -18,22 +18,16 @@
   opacity: 0;
   transition: all 0.5s ease;
 }
-.nav-link:link {
-  color: #0f2239;
-}
+
 
 /* visited link */
 
 
 /* mouse over link */
-.nav-link:hover {
-  color: #fe5722;
-}
+
 
 /* selected link */
-.nav-link:active {
-  color: #fe5722;
-}
+
 
 
 
@@ -48,6 +42,9 @@ overflow: hidden;
   color: #231f20;
  
   
+}
+.nav-link:hover{
+  color: #fe5722;
 }
 
 
@@ -83,5 +80,7 @@ overflow: hidden;
     }
 
   }
-  
+  .nav-link.active {
+    color: #fe5722 !important; /* Change to your desired active color */
+  }
 
