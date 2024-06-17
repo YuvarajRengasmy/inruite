@@ -77,21 +77,13 @@ const Civil = () => {
             </div>
             <div className="row mt-5">
               <div className="content-head mb-2">
-                <h4 className="fw-normal">Healthcare</h4>
+                <h4 className="fw-normal">Travel & Tourism</h4>
               </div>
               <div className="col-lg-12">
                 <div className="content-details">
                   <p>The Healthcare Industry is comprised of companies that offer clinical services, manufacture drugs and medical equipment, and provide healthcare-related support services like medical insurance. Its also referred to as the medical industry. These companies play a key role in the diagnosis, treatment, nursing, and management of illness, disease, and injury.</p>
                 </div>
-                <div className="content-details">
-                  <p>The Healthcare Industry is one of the largest and is expected to continue growing well into the future guided by several drivers. Key among them will be; technological innovation, integration of medicine and healthcare, smart healthcare data management, and a patient-centred restructuring..</p>
-                </div>
-                <div className="content-details">
-                  <p>This growth will be inevitable if and when technology is being embraced in every sector of the healthcare industry. This will call for massive investments in terms of cognitive computing, electronic patient records, interoperability, big data, etc. A digitized healthcare system will provide for better diagnostics, improve the quality of care, and also reduce operational costs..</p>
-                </div>
-                <div className="content-details">
-                  <p>Technological innovation can, for instance, stimulate operational efficiency by helping connect and coordinate operations of all healthcare providers in their different areas of expertise. Integration of medicine and health care will also provide a holistic approach to healthcare through the creation of a collaborative framework that will promote the integration of skills and competencies across pharmaceuticals, medical equipment manufacturers, and healthcare providers.</p>
-                </div>
+              
 
               </div>
               <div className="content-head mb-2">
