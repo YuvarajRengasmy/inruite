@@ -1,119 +1,96 @@
-import React from 'react'
-import { FaFacebookF } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
-import { FaYoutube } from "react-icons/fa6";
-import { FaXTwitter } from "react-icons/fa6";
-import { FaHome } from "react-icons/fa";
-import { IoIosMail } from "react-icons/io";
-import { FaMobile } from "react-icons/fa6";
-import { FaRegCopyright } from "react-icons/fa";
+import React from 'react';
+import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter, FaHome, FaMobile, FaRegCopyright } from 'react-icons/fa';
+import { IoIosMail } from 'react-icons/io';
+
 export const Footer = () => {
   return (
-    <div>
-    <div className="container my-5">
-      <div className="row g-3">
-        <div className="col-12 col-sm-6 col-md-4">
-          <div className="footer-logo">
-            <a href="#"><img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="" className="img-fluid navbar-brand" /></a>
-          </div>
-          <div className="footer-content">
-            <p className="" style={{ textAlign: 'justify' }}>Elevate your career with premier overseas job placements at Inrecruit HR Services Get Expert guidance for international job opportunities.Contact us now for tailored career solutions!</p>
-          </div>
-      
-        </div>
-        <div className="col-12 col-sm-6 col-md-4 mt-4">
-          <div className="link-header">
-            <h4 className="text-capitalize fw-semibold text-center"> Useful Links</h4>
+    <footer className=' ' style={{backgroundColor:'rgba(0,0,0,0.1)'}}>
+      <div className="container my-5 ">
+       
+        <div className="row g-3 justify-content-center">
+          {/* Company Logo and Description */}
+          <div className="col-12 col-sm-6 col-lg-4 ">
+            <div className="footer-logo">
+              <a href="#">
+                <img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
+              </a>
             </div>
-            <div className="d-flex flex-row align-items-center justify-content-evenly mt-4">
-              <div className="d-flex flex-column align-items-center justify-content-center" style={{ textAlign: 'justify' }}>
-                <div className="footer-content">
-                  <p className="text-capitalize fw-semibold">Home</p>
-                  <p className="text-capitalize fw-semibold">about us </p>
-                  <p className="text-capitalize fw-semibold">services</p>
-                  <p className="text-capitalize fw-semibold">industries</p>
-                  <p className="text-capitalize fw-semibold">process</p>
+            <div className="footer-content">
+              <p style={{ textAlign: 'justify' }}>
+                Elevate your career with premier overseas job placements at Inrecruit HR Services. Get expert guidance for international job opportunities. Contact us now for tailored career solutions!
+              </p>
+            </div>
+            <div className="footer-icon d-flex flex-row align-items-center justify-content-around">
+              {[
+                { component: FaFacebookF, className: 'facebook-icon' },
+                { component: FaLinkedinIn, className: 'linkedin-icon' },
+                { component: FaInstagram, className: 'instagram-icon' },
+                { component: FaYoutube, className: 'youtube-icon' },
+                { component: FaTwitter, className: 'twitter-icon' },
+              ].map(({ component: Icon, className }, index) => (
+                <div key={index} className={`social-icon ${className} badge rounded-circle py-2`} style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}>
+                  <Icon />
                 </div>
-              </div>
-              <div className="d-flex flex-column align-items-center justify-content-center" style={{ textAlign: 'justify' }}>
-                <div className="footer-content">
-                  <p className="text-capitalize fw-semibold">overseas recruitment</p>
-                  <p className="text-capitalize fw-semibold">ticket immigration </p>
-                  <p className="text-capitalize fw-semibold">permanent hiring</p>
-                  <p className="text-capitalize fw-semibold">contact hiring</p>
-                  <p className="text-capitalize fw-semibold">job fair</p>
-                </div>
-              </div>
-            </div>
-         
-        </div>
-        <div className="col-12 col-sm-6 col-md-4 mt-4">
-          <div className="link-header">
-            <h4 className="text-capitalize text-center">Contact</h4>
-            
-          </div>
-          <div className="contact-details">
-            <div className="contact-address  ">
-            <div className="d-flex flex-row align-items-center justify-content-start gap-2">
-            <h4 className="" style={{color:'#fe5722'}}><FaHome /></h4>
-            <div className="d-flex flex-column">
-             
-              <p style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
-              Daaru Complex,No.17/A2,    3rd Floor,Gandhi Road,     Alwarthirunagar,Chennai   600087,Tamilnadu,India
-              </p>
-            </div>
-          </div>
-          <div className="d-flex flex-row align-items-center justify-content-start gap-2">
-            <h4 className="" style={{color:'#fe5722'}}><IoIosMail /></h4>
-            <div className="d-flex flex-column">
-             
-              <p style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
-              cv@inrecruit.in 
-              </p>
-            </div>
-          </div>
-          <div className="d-flex flex-row  align-items-center justify-content-start gap-2">
-            <h4 className="" style={{color:'#fe5722'}}><FaMobile /></h4>
-            <div className="d-flex flex-column">
-             
-              <p style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
-              +91-98403 11684            
-              </p>
-            </div>
-          </div>
+              ))}
             </div>
           </div>
 
-        </div>
-        </div>
-        <div className="row g-5">
-          <div className="col-12 col-md-4 col-sm-6">
-          <div className="footer-icon d-flex flex-row align-items-center justify-content-around">
-            <div className="facebook-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaFacebookF /></div>
-            <div className="linkedin-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaLinkedinIn /></div>
-            <div className="instagram-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaInstagram /></div>
-            <div className="youtube-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}> <FaYoutube /></div>
-            <div className="twitter-icon rounded-circle fw-bold px-2 pt-1 pb-2" style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}><FaXTwitter /></div>
+          {/* Useful Links */}
+          <div className="col-12 col-sm-6 col-lg-5 mt-4">
+            <div className="link-header">
+              <h4 className="text-capitalize fw-bold text-center">Useful Links</h4>
+            </div>
+            <div className="d-flex flex-row align-items-center justify-content-evenly mt-4">
+              {[
+                ['Home', 'About Us', 'Services', 'Industries', 'Process'],
+                ['Overseas Recruitment', 'Ticket Immigration', 'Permanent Hiring', 'Contract Hiring', 'Job Fair'],
+              ].map((links, colIndex) => (
+                <div key={colIndex} className="d-flex flex-column align-items-center">
+                  <div className="footer-content">
+                    {links.map((link, linkIndex) => (
+                      <p key={linkIndex} className="text-capitalize fw-normal">{link}</p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
           </div>
+
+          {/* Contact Information */}
+          <div className="col-12 col-sm-6 col-lg-3 mt-4">
+            <div className="link-header">
+              <h4 className="text-capitalize text-center">Contact</h4>
+            </div>
+            <div className="contact-details">
+              {[
+                { icon: FaHome, text: 'Daaru Complex, No.17/A2, Gandhi Road, Alwarthirunagar, Chennai-600087, Tamilnadu, India' },
+                { icon: IoIosMail, text: 'cv@inrecruit.in' },
+                { icon: FaMobile, text: '+91-98403 11684' },
+              ].map(({ icon: Icon, text }, index) => (
+                <div key={index} >
+               
+                  <p className='fs-6 text-break' style={{ fontSize: '0.9rem', }}>  <span><Icon style={{ color: '#fe5722', fontSize: '1rem' }} /></span> {text}</p>
+                </div>
+              ))}
+            </div>
           </div>
-          <div className="col-12 col-md-8 col-sm-6">
-          <div className="d-flex flex-row align-items-center justify-content-center gap-3">
-            <h4 className="" style={{color:'#fe5722'}}><FaRegCopyright /></h4>
-            <div className="d-flex flex-column ">
-             
-              <p style={{ fontSize: '0.900rem', textAlign: 'justify' }}>
-              2024 Copyright: <span style={{color:'#fe5722'}}> InRecuruit</span>
+        </div>
+      </div>
+
+      {/* Footer Bottom Section */}
+      <div className="container-fluid" style={{ backgroundColor: '#0f2239', color: 'white' }}>
+        <div className="container">
+          <div className="row g-3">
+            <div className="col-12">
+              <p className='text-center' style={{ fontSize: '0.9rem' }}>
+                <FaRegCopyright /> 2024 Copyright: InRecruit
               </p>
             </div>
           </div>
-          </div>
-          
-     
+        </div>
       </div>
-    </div>
-  </div>
-  
-  )
+    </footer>
+  );
 }
-export default Footer
+
+export default Footer;

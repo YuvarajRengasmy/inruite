@@ -1,19 +1,19 @@
 import React from 'react';
+import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { IoIosArrowDown } from "react-icons/io";
 
 
 export const Header = () => {
   return (
-    <div>
-      <nav className="navbar navbar-expand-lg shadow-lg bg-light fixed-top">
+    <header>
+      <nav className="navbar navbar-expand-lg shadow bg-white fixed-top">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
               src="https://www.inrecruit.in/images/logo/fynd-career.png"
               alt="InRecruit Logo"
-              className='img-fluid' // Use Bootstrap's img-fluid class to make the image responsive
-              style={{ maxWidth: '200px' }} // maxWidth ensures the image does not exceed this size
+              className='img-fluid'
+              style={{ maxWidth: '200px' }}
             />
           </a>
           <button
@@ -28,81 +28,72 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px', color: "#fe5722", fontVariant: 'all-small-caps' }}>
+            <ul className="navbar-nav mx-auto mb-2 mb-lg-0" style={{ fontSize: '16px', fontWeight: 'bold', color: '#0f2239' }}>
               <li className="nav-item">
-                <a className="nav-link" href="/">Home</a>
+                <NavLink className="nav-link" exact to="/" activeClassName="active">Home</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/About">About</a>
+                <NavLink className="nav-link" to="/About" activeClassName="active">About</NavLink>
               </li>
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href="/Industries"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Industries <span><IoIosArrowDown /></span>
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="/Civil">Civil & Construction</a></li>
-                  <li><a className="dropdown-item" href="#">Engineering</a></li>
-                  <li><a className="dropdown-item" href="#">Hospitality</a></li>
-                  <li><a className="dropdown-item" href="#">Energy & Resources</a></li>
-                  <li><a className="dropdown-item" href="#">Manufacturing</a></li>
-                  <li><a className="dropdown-item" href="#">IT & Telecom</a></li>
-                  <li><a className="dropdown-item" href="#">Oil & Gas</a></li>
-                  <li><a className="dropdown-item" href="#">Healthcare</a></li>
-                  <li><a className="dropdown-item" href="#">Travel & Tourism</a></li>
-                  <li><a className="dropdown-item" href="#">FMCG</a></li>
-                  <li><a className="dropdown-item" href="#">Marine/Shipping</a></li>
-                  <li><a className="dropdown-item" href="#">Education</a></li>
-                  <li><a className="dropdown-item" href="#">Distribution & Logistics</a></li>
+                <NavLink className="nav-link " to="/Industries" id="navbarDropdown" role="button"  aria-expanded="false">
+                  Industries
+                </NavLink>
+                <ul className="dropdown-menu" >
+                  <li><NavLink className="dropdown-item" to="/Civil" activeClassName="active">Civil & Construction</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Engineering" activeClassName="active">Engineering</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Hospitality" activeClassName="active">Hospitality</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Energy-&-Resources" activeClassName="active">Energy & Resources</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Manfacturing" activeClassName="active">Manufacturing</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/IT-&-Telecom" activeClassName="active">IT & Telecom</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Oil-&-Gas" activeClassName="active">Oil & Gas</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Healthcare" activeClassName="active">Healthcare</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Travel-&-Tourism" activeClassName="active">Travel & Tourism</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/FMCG" activeClassName="active">FMCG</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Marine-Shipping" activeClassName="active">Marine/Shipping</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Education" activeClassName="active">Education</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Distribution-&-Logistics" activeClassName="active">Distribution & Logistics</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Agriculture" activeClassName="active">Agriculture</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Automobile" activeClassName="active">Automobile</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Accounting-Operations" activeClassName="active">Accounting</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item dropdown">
-                <a
-                  className="nav-link "
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Services <IoIosArrowDown />
-                </a>
-                <ul className="dropdown-menu">
-                  <li><a className="dropdown-item" href="#">Overseas Recruitment</a></li>
-                  <li><a className="dropdown-item" href="#">Executive Search</a></li>
-                  <li><a className="dropdown-item" href="#">Contract Hiring</a></li>
-                  <li><a className="dropdown-item" href="#">Permanent Staffing</a></li>
-                  <li><a className="dropdown-item" href="#">Payroll Management</a></li>
-                  <li><a className="dropdown-item" href="#">Job Fair</a></li>
-                  <li><a className="dropdown-item" href="#">Campus Recruitment</a></li>
-                  <li><a className="dropdown-item" href="#">Technical Trade Test</a></li>
-                  <li><a className="dropdown-item" href="#">Ticketing</a></li>
+                <NavLink className="nav-link " to="/Services" id="navbarDropdown" role="button"  aria-expanded="false">
+                  Services
+                </NavLink>
+                <ul className="dropdown-menu" >
+                  <li><NavLink className="dropdown-item" to="/Overseas-Recruitment" activeClassName="active">Overseas Recruitment</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Executive-Search" activeClassName="active">Executive Search</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Contract-Hiring" activeClassName="active">Contract Hiring</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Permanent-Staffing" activeClassName="active">Permanent Staffing</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Payroll-Management" activeClassName="active">Payroll Management</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Job-Fair" activeClassName="active">Job Fair</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Campus-Recuritment" activeClassName="active">Campus Recruitment</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Technical-Trade-Test" activeClassName="active">Technical Trade Test</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/Ticketing" activeClassName="active">Ticketing & Emigration</NavLink></li>
                 </ul>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Process</a>
+                <NavLink className="nav-link" to="/Process" activeClassName="active">Process</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Clients</a>
+                <NavLink className="nav-link" to="/Clients" activeClassName="active">Clients</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="#">Careers</a>
+                <NavLink className="nav-link" to="/Careers" activeClassName="active">Careers</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/blogs">Blogs</a>
+                <NavLink className="nav-link" to="/Blogs" activeClassName="active">Blogs</NavLink>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact Us</a>
+                <NavLink className="nav-link" to="/Contact" activeClassName="active">Contact Us</NavLink>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    </div>
+    </header>
   );
 }
 
