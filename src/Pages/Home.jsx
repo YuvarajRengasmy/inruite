@@ -370,7 +370,7 @@ export const Home = () => {
         <div className="image-card">
           <img src="https://hrshelf.com/wp-content/uploads/2022/04/Internal-Recruitment.jpg" alt="" className="img-fluid card1 h-100 p-0" />
         </div>
-        <div className="card-img-overlay align-self-center">
+        <div className="card-img-overlay align-self-center p-4">
         <h5 className=" text-capitalize fw-bold h3 text-center text-white" >How can we build your business?</h5>
         <p className="lh-base text-white " style={{textAlign:'justify'}}>
         We provide expert opinions, analysis, and strategies to organizations to prevent problems and improve performance.
@@ -389,7 +389,7 @@ export const Home = () => {
         </div>
          
         
-        <div className="card-img-overlay align-self-center">
+        <div className="card-img-overlay align-self-center p-4">
         <h5 className=" text-capitalize fw-bold h3  text-white text-center">Our people are our
         greatest assests</h5>
         <p className="lh-base  text-white" style={{textAlign:'justify'}}>

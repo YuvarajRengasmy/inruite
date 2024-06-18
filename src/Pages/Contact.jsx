@@ -8,22 +8,40 @@ export const Contact = () => {
       <div className=" ">
         <Header />
       </div>
-      <div className="container" style={{marginTop:'120px'}}>
+      <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div className="container" >
         <div className="row">
           <div className="col-12">
             <div className="about-header">
-              <div className="d-flex flex-row gap-3">
+              <div className="d-flex flex-column flex-sm-row gap-3">
                 <div className="home-link">
-                  <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3 " style={{ color: '#0f2239',fontVariant:'all-small-caps',fontSize:'18px' }}>Home</Link>
+                  <Link to="/" className="text-decoration-none border-end border-3 border-dark px-3" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Home</Link>
                 </div>
                 <div className="about-link">
-                  <Link to="/Contact" className="text-decoration-none " style={{ color: '#0f2239',fontVariant:'all-small-caps',fontSize:'18px' }}>Contact</Link>
+                  <Link to="/Contact" className="text-decoration-none" style={{ color: '#0f2239', fontVariant: 'all-small-caps', fontSize: '18px' }}>Contact</Link>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+      <hr  className='p-0'/>
 
       <div className="container-fluid my-5" style={{ background: '#eceff3' }}>
         <div className="container">

@@ -7,7 +7,23 @@ const Civil = () => {
     return (
         <div className="Civil">
             <Header />
-            <div className="container mt-5 pt-5">
+            <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+            <div className="container ">
                 <div className="row">
                     <div className="col-12">
                         <div className="about-header">
@@ -76,7 +92,7 @@ const Civil = () => {
                         </div>
                         <div className="row mt-5">
                             <div className="content-head mb-2">
-                                <h4 className="fw-normal">Civil & Construction</h4>
+                                <h4 className="fw-normal t">Civil & Construction</h4>
                             </div>
                             <div className="col-lg-6">
                                 <div className="content-details">
@@ -97,7 +113,7 @@ const Civil = () => {
                         </div>
                         <div className="row mt-4">
                             <div className="content-head">
-                                <h4>Role Of Civil Engineers</h4>
+                                <h4 >Role Of Civil Engineers</h4>
                                 <div className="col-12">
                                     <div className="content-details my-3">
                                         <p>Civil engineers are the people in charge of managing the construction projects.</p>
@@ -109,10 +125,16 @@ const Civil = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt-4 g-2">
+                       
+                    </div>
+                </div>
+            </div>
+            <div className="container my-5">
+                <div className="row g-5">
+                
                             <div className="col-12">
                                 <div className="content-head">
-                                    <h4>Projects In Civil Construction</h4>
+                                    <h4  >Projects In Civil Construction</h4>
                                     <p>Some of the larger projects handled by the civil sector include:</p>
                                 </div>
                             </div>
@@ -136,15 +158,10 @@ const Civil = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container my-5">
-                <div className="row g-5">
+                       
                     <div className="col-lg-6">
                         <div className="content-head">
-                            <h4 className="fw-semibold text-uppercase text-center">Jobs in Civil and Construction Industry</h4>
+                            <h5 className="fw-semibold text-uppercase text-center ">Jobs in Civil and Construction Industry</h5>
                             <p className="lh-base"> The decision to work in practice or industry has to be made based on what you want from your career. Ask yourself a series of questions and locate what is important to you; is it the salary or the importance of the work you produce? Is it variety, people, or your day-to-day work-life balance?</p>
                             <p className="lh-base"> Don’t forget that you can change your mind, although it should be noted that moving from practice into the industry is much easier than the other way around. If you want to try both, consider going into practice first.</p>
                         </div>
@@ -222,8 +239,9 @@ const Civil = () => {
 </div>
 
                         </div>
-                        <div className="row mt-3 p-4" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
-                            <div className="d-flex flex-row align-items-center justify-content-between w-100">
+                        <div className="row mt-3">
+                        <p>If you are looking for a job, please reach out to us, we can help you to realize your dream.</p>
+                            <div className="d-flex flex-row align-items-center justify-content-between w-100  p-4"  style={{ backgroundColor: '#0f2239', color: '#fff' }}>
                                 <h6 className="fw-bold">Reach out to know about any recent openings.</h6>
                                 <a href="/Contact" className="btn btn-sm rounded-3 px-2 py-1" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Contact us</a>
                             </div>
