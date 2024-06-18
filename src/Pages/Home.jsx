@@ -17,62 +17,63 @@ export const Home = () => {
 
         </div>
       
-        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="false">
-    <div className="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active " aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"  aria-label="Slide 2 "></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"  aria-label="Slide 3 "></button>
-    </div>
-    <div className="carousel-inner" >
-      <div className="carousel-item active" style={{height:'95vh'}}>
-      <div className="embed-responsive embed-responsive-16by9">
-            <video className="d-block" style={{pointerEvents:"none"}} autoPlay muted loop controls>
-              <source src={Video1} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        <div className="carousel-caption position-absolute">
-          <h5 className="text-capitalize  text-center">digital transformation</h5>
-          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
-          <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
-        </div>
-      </div>
-      <div className="carousel-item" style={{height:'95vh'}}>
-      <div className="embed-responsive embed-responsive-16by9">
-            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
-              <source src={Video2} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        <div className="carousel-caption">
-          <h5 className="text-capitalize">digital transformation</h5>
-          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
-          <a href="#" className="btn text-uppercase fw-semibold" style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
-        </div>
-      </div>
-      <div className="carousel-item" style={{height:'95vh'}}>
-      <div className="embed-responsive embed-responsive-16by9">
-            <video className="d-block" style={{pointerEvents:"none",maxHeight:"50%",maxWidth:"100%"}} autoPlay muted loop controls>
-              <source src={Video3} type="video/mp4" />
-              Your browser does not support the video tag.
-            </video>
-          </div>
-        <div className="carousel-caption">
-          <h5 className="text-capitalize">digital transformation</h5>
-          <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
-          <a href="#" className="btn text-uppercase fw-semibold"  style={{backgroundColor:"#fe5722", color:"white"}}>view our services</a>
-        </div>
-      </div>
-    </div>
-    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span className="carousel-control-prev-icon " aria-hidden="true"></span>
-      <span className="visually-hidden">Previous</span>
-    </button>
-    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span className="carousel-control-next-icon " aria-hidden="true"></span>
-      <span className="visually-hidden">Next</span>
-    </button>
+        <div id="carouselExampleCaptions" className="carousel slide" data-bs-ride="carousel">
+  <div className="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
+  <div className="carousel-inner">
+    <div className="carousel-item active" >
+      <div className="embed-responsive embed-responsive-16by9">
+        <video className="d-block w-100" style={{ pointerEvents: "none"}} autoPlay muted loop>
+          <source src={Video1} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div className="carousel-caption">
+        <h5 className="text-capitalize text-center">digital transformation</h5>
+        <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
+        <a href="#" className="btn text-uppercase fw-semibold" style={{ backgroundColor: "#fe5722", color: "white" }}>view our services</a>
+      </div>
+    </div>
+    <div className="carousel-item" >
+      <div className="embed-responsive embed-responsive-16by9">
+        <video className="d-block w-100" style={{ pointerEvents: "none" }} autoPlay muted loop>
+          <source src={Video2} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div className="carousel-caption">
+        <h5 className="text-capitalize text-center">digital transformation</h5>
+        <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
+        <a href="#" className="btn text-uppercase fw-semibold" style={{ backgroundColor: "#fe5722", color: "white" }}>view our services</a>
+      </div>
+    </div>
+    <div className="carousel-item" >
+      <div className="embed-responsive embed-responsive-16by9">
+        <video className="d-block w-100" style={{ pointerEvents: "none" }} autoPlay muted loop>
+          <source src={Video3} type="video/mp4" />
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div className="carousel-caption">
+        <h5 className="text-capitalize text-center">digital transformation</h5>
+        <p className="text-capitalize text-center">Reinventing Companies by delivering excellence</p>
+        <a href="#" className="btn text-uppercase fw-semibold" style={{ backgroundColor: "#fe5722", color: "white" }}>view our services</a>
+      </div>
+    </div>
+  </div>
+  <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Previous</span>
+  </button>
+  <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+    <span className="visually-hidden">Next</span>
+  </button>
+</div>
+
   <div className="container my-5">
         <div className="row g-4 mb-4">
           <div className="col-md-4">
