@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter, FaHome, FaMobile, FaRegCopyright } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
+import Logo from "../../assets/image/InRecruit.svg"
 
 export const Footer = () => {
   return (
@@ -12,7 +13,7 @@ export const Footer = () => {
           <div className="col-12 col-sm-12 col-lg-3 ">
             <div className="footer-logo">
               <a href="#">
-                <img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
+                <img src={Logo} alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
               </a>
             </div>
             <div className="footer-content">
