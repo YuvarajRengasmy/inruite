@@ -73,8 +73,6 @@ export const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
-
-
   <div className="container my-5">
         <div className="row g-4 mb-4">
           <div className="col-md-4">
