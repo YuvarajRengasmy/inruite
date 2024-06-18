@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
+import Banner from "../assets/image/2.jpg"
 
 export const Clients = () => {
   return (
@@ -12,9 +13,9 @@ export const Clients = () => {
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">
     <div className="row">
-      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '15rem' }}>
         <img
-          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          src={Banner}
           className="img-fluid h-100 card1"
           alt="About Us Background"
         />
