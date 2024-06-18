@@ -24,9 +24,9 @@ export const Home = () => {
     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" >
+    <div className="carousel-item active">
       <div className="embed-responsive embed-responsive-16by9">
-        <video className="d-block w-100" style={{ pointerEvents: "none"}} autoPlay muted loop>
+        <video className="d-block w-100" style={{ pointerEvents: "none" }} autoPlay muted loop>
           <source src={Video1} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
@@ -37,7 +37,7 @@ export const Home = () => {
         <a href="#" className="btn text-uppercase fw-semibold" style={{ backgroundColor: "#fe5722", color: "white" }}>view our services</a>
       </div>
     </div>
-    <div className="carousel-item" >
+    <div className="carousel-item">
       <div className="embed-responsive embed-responsive-16by9">
         <video className="d-block w-100" style={{ pointerEvents: "none" }} autoPlay muted loop>
           <source src={Video2} type="video/mp4" />
@@ -50,7 +50,7 @@ export const Home = () => {
         <a href="#" className="btn text-uppercase fw-semibold" style={{ backgroundColor: "#fe5722", color: "white" }}>view our services</a>
       </div>
     </div>
-    <div className="carousel-item" >
+    <div className="carousel-item">
       <div className="embed-responsive embed-responsive-16by9">
         <video className="d-block w-100" style={{ pointerEvents: "none" }} autoPlay muted loop>
           <source src={Video3} type="video/mp4" />
@@ -73,6 +73,7 @@ export const Home = () => {
     <span className="visually-hidden">Next</span>
   </button>
 </div>
+
 
   <div className="container my-5">
         <div className="row g-4 mb-4">
