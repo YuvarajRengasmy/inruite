@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter, FaHome, FaMobile, FaRegCopyright } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
+import Logo from "../../assets/image/InRecruit.svg"
 
 export const Footer = () => {
   return (
@@ -9,10 +10,10 @@ export const Footer = () => {
        
         <div className="row g-3 justify-content-center">
           {/* Company Logo and Description */}
-          <div className="col-12 col-sm-6 col-lg-4 ">
+          <div className="col-12 col-sm-12 col-lg-3 ">
             <div className="footer-logo">
               <a href="#">
-                <img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
+                <img src={Logo} alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
               </a>
             </div>
             <div className="footer-content">
@@ -36,9 +37,9 @@ export const Footer = () => {
           </div>
 
           {/* Useful Links */}
-          <div className="col-12 col-sm-6 col-lg-5 mt-4">
+          <div className="col-12 col-sm-12 col-lg-6 mt-4">
             <div className="link-header">
-              <h4 className="text-capitalize fw-bold text-center">Useful Links</h4>
+              <h4 className="text-capitalize fw-bold text-center  ">Useful Links</h4>
             </div>
             <div className="d-flex flex-row align-items-center justify-content-evenly mt-4">
               {[
@@ -57,7 +58,7 @@ export const Footer = () => {
           </div>
 
           {/* Contact Information */}
-          <div className="col-12 col-sm-6 col-lg-3 mt-4">
+          <div className="col-12 col-sm-12 col-lg-3 mt-4">
             <div className="link-header">
               <h4 className="text-capitalize text-center">Contact</h4>
             </div>

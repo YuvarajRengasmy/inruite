@@ -25,8 +25,23 @@ const Overseas = () => {
   return (
     <div>
       <Header />
-      
-      <section className="container mt-5 pt-5">
+      <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+      <section className="container">
         <div className="row">
           <div className="col-12">
             <div className="about-header">
@@ -74,11 +89,11 @@ const Overseas = () => {
           <div className="col-lg-4 col-md-12 mb-4 mb-lg-0" >
             <div className="card rounded-0 h-100">
               <div className="card-header  rounded-0"  style={{backgroundColor:'#0f2239',color:'#fff'}}>
-                <h4 className="fw-bold text-center">What do we offer?</h4>
+                <h5 className="fw-bold text-center">What do we offer?</h5>
               </div>
               <div className="card-body p-4">
                 {offers.map((item, index) => (
-                  <p className="card-text lh-base" style={{ textAlign: 'justify' }} key={index}>
+                  <p className="card-text lh-base" key={index}>
                     <span className='fw-bold'>{index + 1}. </span> {item}
                   </p>
                 ))}
@@ -88,7 +103,7 @@ const Overseas = () => {
           <div className="col-lg-8 col-md-12">
             <div className="card rounded-0 h-100">
               <div className="card-header rounded-0"  style={{backgroundColor:'#0f2239',color:'#fff'}}>
-                <h4 className="fw-bold text-center">International Manpower Recruitment</h4>
+                <h5 className="fw-bold text-center">International Manpower Recruitment</h5>
               </div>
               <div className="card-body">
                 <div className="container">

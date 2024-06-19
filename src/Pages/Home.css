@@ -51,6 +51,14 @@ overflow: hidden;
 
 
 
+  .nav-link.active {
+    color: #fe5722 !important; /* Change to your desired active color */
+  }
+
+  .carousel-item {
+    height: 95vh;
+  }
+  
   .carousel-caption {
     bottom: 35%;
   }
@@ -59,7 +67,7 @@ overflow: hidden;
     font-weight: 700;
   }
   .carousel-caption p {
-    font-size: 1.0rem;
+    font-size: 1rem;
     font-weight: 400;
   }
   .carousel-caption .btn {
@@ -67,20 +75,89 @@ overflow: hidden;
     font-size: 1rem;
     font-weight: 600;
   }
-  @media (max-width: 768px) {
+  
+  @media (max-width: 1200px) {
+    .carousel-item {
+      height: 75vh;
+    }
     .carousel-caption h5 {
-      font-size: 1.5rem;
+      font-size: 1.8rem;
     }
     .carousel-caption p {
-      font-size: 1rem;
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .carousel-item {
+      height: 65vh;
+    }
+    .carousel-caption h5 {
+      font-size: 1.6rem;
+    }
+    .carousel-caption p {
+      font-size: 0.8rem;
     }
     .carousel-caption .btn {
       padding: 8px 16px;
       font-size: 0.9rem;
     }
-
   }
-  .nav-link.active {
-    color: #fe5722 !important; /* Change to your desired active color */
+  
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: 50vh;
+    }
+    .carousel-caption {
+      bottom: 25%;
+    }
+    .carousel-caption h5 {
+      font-size: 1.5rem;
+    }
+    .carousel-caption p {
+      font-size: 0.75rem;
+    }
+    .carousel-caption .btn {
+      padding: 8px 16px;
+      font-size: 0.9rem;
+    }
   }
-
+  
+  @media (max-width: 576px) {
+    .carousel-item {
+      height: 40vh;
+    }
+    .carousel-caption {
+      bottom: 20%;
+    }
+    .carousel-caption h5 {
+      font-size: 1rem;
+    }
+    .carousel-caption p {
+      font-size: 0.7rem;
+    }
+    .carousel-caption .btn {
+      padding: 6px 12px;
+      font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .carousel-item {
+      height: 30vh;
+    }
+    .carousel-caption {
+      bottom: 15%;
+    }
+    .carousel-caption h5 {
+      font-size: 0.8rem;
+    }
+    .carousel-caption p {
+      font-size: 0.6rem;
+    }
+    .carousel-caption .btn {
+      padding: 4px 8px;
+      font-size: 0.7rem;
+    }
+  }
+  

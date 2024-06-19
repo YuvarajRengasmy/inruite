@@ -10,9 +10,24 @@ export const Careers = () => {
       <div className="header">
         <Header />
       </div>
-   
+      <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-      <div className="container " style={{ marginTop: '120px' }}>
+      <div className="container " >
         <div className="row">
           <div className="col-12">
             <div className="about-header">
@@ -139,7 +154,7 @@ export const Careers = () => {
         </div>
       </div>
 
-      <div className="container my-5">
+      <div className="container my-5  d-none d-lg-block">
         <div className="row">
           <div className="col-12">
             <div className="card card-body p-4">
@@ -163,7 +178,7 @@ export const Careers = () => {
                   <td>$30,000</td>
                   <td  className=''>+5 Years</td>
                   <td  className=''>nnnnnnn</td>
-                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  <td>    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
               </tr>
@@ -174,7 +189,7 @@ export const Careers = () => {
                   <td>$30,000</td>
                   <td  className=''>+5 Years</td>
                   <td  className=''>nnnnnnn</td>
-                  <td>    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  <td>    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
               </tr>
@@ -185,7 +200,66 @@ export const Careers = () => {
                   <td>$30,000</td>
                   <td  className=''>+5 Years</td>
                   <td  className=''>nnnnnnn</td>
-                  <td >    <button type="button" className="btn fw-semibold text-uppercase px-3 py-2 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  <td >    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  apply now
+                </button></td>
+              </tr>
+  </tbody>
+</table>
+              <table className="table table-responsive table-hover">
+          
+              
+          
+              </table>
+            
+            
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="container my-5  d-lg-none">
+        <div className="row">
+          <div className="col-12">
+            <div className="card card-body p-4">
+            <table className="table table-responsive table-borderless ">
+  <thead  className='table-light '>
+  <tr>
+                  <th>S.No</th>
+                  <th>Job Title</th>
+                  <th >Country</th>
+                  <th>Salary</th>
+                
+                  <th>Apply</th>
+                </tr>
+  </thead>
+  <tbody>
+  <tr>
+              <th>01</th>
+                  <td>React</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                 
+                  <td>    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  apply now
+                </button></td>
+              </tr>
+              <tr>
+              <th>02</th>
+                  <td>AI</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                
+                  <td>    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
+                  apply now
+                </button></td>
+              </tr>
+              <tr>
+              <th>03</th>
+                  <td>AI</td>
+                  <td>New York</td>
+                  <td>$30,000</td>
+                 
+                  <td >    <button type="button" className="btn btn-sm fw-semibold text-uppercase px-2 py-1 rounded-5" data-bs-toggle="modal" data-bs-target="#exampleModal" style={{ backgroundColor: '#fe5722', color: '#fff' }}>
                   apply now
                 </button></td>
               </tr>

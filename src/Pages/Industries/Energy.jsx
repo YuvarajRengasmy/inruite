@@ -8,7 +8,23 @@ const Civil = () => {
     return (
         <div className="Civil">
             <Header />
-            <div className="container mt-5 pt-5">
+            <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+            <div className="container">
                 <div className="row">
                     <div className="col-12">
                         <div className="about-header">
@@ -20,7 +36,7 @@ const Civil = () => {
                                     <Link to="/Industries" className="text-decoration-none border-end border-3 border-dark px-3 text-dark small-caps">Industries</Link>
                                 </div>
                                 <div className="about-link">
-                                    <Link to="/Civil" className="text-decoration-none px-3 text-dark small-caps">Civil</Link>
+                                    <Link to="/Energy-&-Resources" className="text-decoration-none px-3 text-dark small-caps">Energy and resources</Link>
                                 </div>
                             </div>
                         </div>
@@ -28,7 +44,7 @@ const Civil = () => {
                 </div>
             </div>
             <hr className="p-0" />
-            <div className="container my-5">
+            <div className="container mt-5 mb-3">
                 <div className="row g-5">
                     <div className="col-lg-3 d-none d-lg-block">
                         <div className="list-group bg-dark text-white small-caps">
@@ -66,7 +82,7 @@ const Civil = () => {
                                     <textarea className="form-control" placeholder="Message" rows="4"></textarea>
                                 </div>
                                 <div className="mb-3 text-center">
-                                    <button className="btn text-uppercase text-white fw-semibold" type="submit" style={{ backgroundColor: 'fe5722' }}>Submit form</button>
+                                    <button className="btn text-uppercase text-white fw-semibold" type="submit" style={{ backgroundColor: '#fe5722' }}>Submit form</button>
                                 </div>
                             </form>
                         </div>
@@ -77,7 +93,7 @@ const Civil = () => {
                         </div>
                         <div className="row mt-5">
                             <div className="content-head mb-2">
-                                <h4 className="fw-normal">Energy & Resource Industry</h4>
+                                <h4 className="fw-normal ">Energy & Resource Industry</h4>
                             </div>
                             <div className="col-lg-12">
                                 <div className="content-details">
@@ -88,7 +104,7 @@ const Civil = () => {
                                 </div>
                             </div>
                             <div className="content-head mb-2">
-                                <h4 className="fw-normal">Types of Energy Sector Companies</h4>
+                                <h4 className="fw-normal ">Types of Energy Sector Companies</h4>
                             </div>
                             <div className="col-lg-12">
                                 <div className="content-details">
@@ -112,10 +128,15 @@ const Civil = () => {
                             </div>
                         </div>
                         
-                        <div className="row mt-4 g-2">
-                            <div className="col-12">
-                                <div className="content-head">
-                                    <h3>Reasons to Work in Energy Sector:</h3>
+                      
+                    </div>
+                </div>
+            </div>
+            <div className="container ">
+                <div className="row g-5">
+                <div className="col-12">
+                                <div className="content-head mb-3">
+                                    <h4 className=''>Reasons to Work in Energy Sector:</h4>
                               
                                 </div>
                             </div>
@@ -139,15 +160,9 @@ const Civil = () => {
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div className="container my-5">
-                <div className="row g-5">
                     <div className="col-lg-6">
                         <div className="content-head">
-                            <h4 className="fw-semibold text-uppercase text-center">Jobs in Civil and Construction Industry</h4>
+                            <h5 className="fw-semibold text-uppercase text-center ">Jobs in Civil and Construction Industry</h5>
                             <p className="lh-base"> The decision to work in practice or industry has to be made based on what you want from your career. Ask yourself a series of questions and locate what is important to you; is it the salary or the importance of the work you produce? Is it variety, people, or your day-to-day work-life balance?</p>
                             <p className="lh-base"> Don’t forget that you can change your mind, although it should be noted that moving from practice into the industry is much easier than the other way around. If you want to try both, consider going into practice first.</p>
                         </div>
@@ -178,17 +193,17 @@ const Civil = () => {
                         <div className="border">
                             <ul className="nav nav-tabs nav-justified fs-9" id="myTab" role="tablist">
                                 <li className="nav-item" role="presentation">
-                                    <a className="nav-link active" id="home-tab" data-bs-toggle="tab" href="tab-home" role="tab" aria-controls="tab-home" aria-selected="true">
+                                    <a className="nav-link active" id="home-tab" data-bs-toggle="tab" href="#tab-home" role="tab" aria-controls="tab-home" aria-selected="true">
                                         FAQ1
                                     </a>
                                 </li>
                                 <li className="nav-item" role="presentation">
-                                    <a className="nav-link" id="profile-tab" data-bs-toggle="tab" href="tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">
+                                    <a className="nav-link" id="profile-tab" data-bs-toggle="tab" href="#tab-profile" role="tab" aria-controls="tab-profile" aria-selected="false">
                                         FAQ2
                                     </a>
                                 </li>
                                 <li className="nav-item" role="presentation">
-                                    <a className="nav-link" id="contact-tab" data-bs-toggle="tab" href="tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">
+                                    <a className="nav-link" id="contact-tab" data-bs-toggle="tab" href="#tab-contact" role="tab" aria-controls="tab-contact" aria-selected="false">
                                         FAQ3
                                     </a>
                                 </li>
@@ -222,8 +237,9 @@ const Civil = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="row mt-3 p-4" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
-                            <div className="d-flex flex-row align-items-center justify-content-between w-100">
+                        <div className="row mt-3">
+                        <p>If you are looking for a job, please reach out to us, we can help you to realize your dream.</p>
+                            <div className="d-flex flex-row align-items-center justify-content-between w-100  p-4"  style={{ backgroundColor: '#0f2239', color: '#fff' }}>
                                 <h6 className="fw-bold">Reach out to know about any recent openings.</h6>
                                 <a href="/Contact" className="btn btn-sm rounded-3 px-2 py-1" style={{ backgroundColor: '#fe5722', color: '#fff' }}>Contact us</a>
                             </div>

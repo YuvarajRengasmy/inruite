@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Logo from "../../assets/image/InRecruit.svg"
 
 
 export const Header = () => {
@@ -10,7 +11,7 @@ export const Header = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
-              src="https://www.inrecruit.in/images/logo/fynd-career.png"
+              src={Logo}
               alt="InRecruit Logo"
               className='img-fluid'
               style={{ maxWidth: '200px' }}

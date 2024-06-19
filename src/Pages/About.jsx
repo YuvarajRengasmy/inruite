@@ -9,8 +9,25 @@ export const About = () => {
       <div className="header">
         <Header />
       </div>
-      <section className="" style={{ marginTop: '100px' }}>
-  <div className="container">
+      <section style={{ marginTop: '100px' }}>
+  <div className="container-fluid mb-4">
+    <div className="row">
+      <div className="card p-0 border-0 rounded-0 image-card" style={{ height: '10rem' }}>
+        <img
+          src="https://www.azentio.com/wp-content/uploads/2023/07/Aboutus_backgound-1.jpg"
+          className="img-fluid h-100 card1"
+          alt="About Us Background"
+        />
+        <div className="card-img-overlay align-self-center">
+          <h2 className="card-title text-white text-uppercase px-3">About Us</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+      <section className="">
+  <div className="container mb-3">
     <div className="row">
       <div className="col-12">
         <div className="about-header">
@@ -44,7 +61,7 @@ export const About = () => {
       <div className='col-lg-6'>
         <div className="card border-0 rounded-0 shadow h-100">
           <div className="card-header text-white card-header rounded-0 text-center p-3" style={{ backgroundColor: '#0f2239' }}>
-            <h2 className='text-uppercase fw-normal'>About our consulting</h2>
+            <h4 className='text-uppercase fw-normal'>About our consulting</h4>
           </div>
           <div className="card-body px-4 py-4">
             <p className='card-text lh-base' style={{ textAlign: 'justify' }}>
@@ -89,7 +106,7 @@ export const About = () => {
       <div className="col-lg-6">
         <div className="card rounded-0 border-0 shadow h-50" >
           <div className="card-header rounded-0" style={{ backgroundColor: '#0f2239', color: '#fff' }}>
-            <h4 className="fw-normal text-center">Our Mission</h4>
+            <h4 className="fw-normal  text-center">Our Mission</h4>
           </div>
           <div className="card-body">
             <p className="card-text" style={{ textAlign: 'justify' }}>Our mission is to build a platform where business establishments across the globe and job aspirants can connect and achieve mutually beneficial results. We want to be your bridge from your home country to your dream country.</p>
