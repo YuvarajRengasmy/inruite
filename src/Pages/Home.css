@@ -1,3 +1,118 @@
+@keyframes custom-pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.aos-animate[data-aos='custom-pulse'] {
+  animation: custom-pulse 1s ease-in-out infinite;
+}
+
+@keyframes custom-rubberBand {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scaleX(1.25) scaleY(0.75);
+  }
+  40% {
+    transform: scaleX(0.75) scaleY(1.25);
+  }
+  50% {
+    transform: scaleX(1.15) scaleY(0.85);
+  }
+  65% {
+    transform: scaleX(0.95) scaleY(1.05);
+  }
+  75% {
+    transform: scale(1);
+  }
+}
+
+.aos-animate[data-aos='custom-rubberBand'] {
+  animation: custom-rubberBand 1s ease;
+}
+
+@keyframes custom-tada {
+  0% {
+    transform: scale(1);
+  }
+  10%, 20% {
+    transform: scale(0.9) rotate(-3deg);
+  }
+  30%, 50%, 70%, 90% {
+    transform: scale(1.1) rotate(3deg);
+  }
+  40%, 60%, 80% {
+    transform: scale(1.1) rotate(-3deg);
+  }
+  100% {
+    transform: scale(1) rotate(0);
+  }
+}
+
+.aos-animate[data-aos='custom-tada'] {
+  animation: custom-tada 1s ease-in-out;
+}
+
+@keyframes custom-swing {
+  20% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  40% {
+    transform: rotate3d(0, 0, 1, -10deg);
+  }
+  60% {
+    transform: rotate3d(0, 0, 1, 5deg);
+  }
+  80% {
+    transform: rotate3d(0, 0, 1, -5deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+
+.aos-animate[data-aos='custom-swing'] {
+  animation: custom-swing 1s ease-in-out;
+}
+
+@keyframes custom-bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
+.aos-animate[data-aos='custom-bounce'] {
+  animation: custom-bounce 1.7s ease-in-out;
+}
+
+@keyframes custom-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.aos-animate[data-aos='custom-spin'] {
+  animation: custom-spin 2s linear infinite;
+}
+
+
 .hover-card:hover {
   transform: scale(1.05);
   transition: transform 0.3s ease-in-out;

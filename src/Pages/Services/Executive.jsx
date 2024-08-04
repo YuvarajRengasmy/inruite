@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
-
+import { Helmet } from 'react-helmet';
 const offers = [
   "Help you get hired faster.",
   "Finding the right job for you.",
@@ -25,6 +25,13 @@ const recruitmentDetails = [
 const Executive = () => {
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Executive Search</title>
+      <meta name="title" content="Executive Search | Expert Recruitment Solutions | InRecruit " />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

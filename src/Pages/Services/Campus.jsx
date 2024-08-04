@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
-
+import { Helmet } from 'react-helmet';
 const benefits = [
   "Saves time and energy",
   "Limited Competition",
@@ -45,6 +45,13 @@ const processSteps = [
 const Campus = () => {
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Campus Recruitment</title>
+      <meta name="title" content="Campus Recruitment | InRecruit - Talent Acquisition Solutions" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

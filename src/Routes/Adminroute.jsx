@@ -27,7 +27,7 @@ import Blogs from '../Pages/Blogs'
 import Careers from '../Pages/Careers'
 import Executive from '../Pages/Services/Executive'
 
-import Contract from '../Pages/Services/Contract'
+import Contract from '../Pages/Services/contract'
 import Campus from '../Pages/Services/Campus'
 import Job from '../Pages/Services/Job'
 import Overseas from '../Pages/Services/Overseas'

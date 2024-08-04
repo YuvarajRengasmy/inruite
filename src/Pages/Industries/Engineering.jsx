@@ -2,10 +2,17 @@ import React from 'react'
 import { Link } from 'react-router-dom';
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 export const Engineering = () => {
   return (
-    <div className="Civil">
+    <div className="Engineering">
+         <div>
+    <Helmet>
+      <title>Engineering</title>
+      <meta name="title" content="Top Engineering Jobs Abroad | InRecruit" />
+    </Helmet>
+    
+  </div>
     <Header />
     <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 export const Services = () => {
   const services = [
     {
@@ -63,6 +63,13 @@ export const Services = () => {
 
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Services</title>
+      <meta name="title" content="Abroad Job Consultancy Services in Chennai | InRecruit" />
+    </Helmet>
+    
+  </div>
       <div className="header">
         <Header />
       </div>

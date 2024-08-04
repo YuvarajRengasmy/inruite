@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom';
 import Travel from "../../assets/image/indu/fcmg.jpg";
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 const Civil = () => {
   return (
-    <div className="Civil">
+    <div className="Fast-moving-consumer-goods">
+       <div>
+    <Helmet>
+      <title>Fast-moving consumer goods</title>
+      <meta name="title" content="Fast Moving Consumer Goods Jobs(FMCG)" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

@@ -10,7 +10,7 @@ export const Header = () => {
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
             <img
-              src="https://www.inrecruit.in/images/logo/fynd-career.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrI30YYaYo2x_jjhbhvYY9I6zUO5ek4XOGYQ&s"
               alt="InRecruit Logo"
               className='img-fluid'
               style={{ maxWidth: '200px' }}

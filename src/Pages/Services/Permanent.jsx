@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
-
+import { Helmet } from 'react-helmet';
 const benefits = [
   "Health and Other Insurance Coverage",
   "Retirement Benefits and Pension Plans",
@@ -53,6 +53,13 @@ const processSteps = [
 const Permanent = () => {
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Permanent Staffing</title>
+      <meta name="title" content="Permanent Overseas jobs | InRecruit" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

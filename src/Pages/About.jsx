@@ -2,10 +2,17 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 export const About = () => {
   return (
     <>
+     <div>
+    <Helmet>
+      <title>About Us</title>
+      <meta name="title" content="International Overseas Job Consultants in Chennai | InRecruit " />
+    </Helmet>
+    
+  </div>
       <div className="header">
         <Header />
       </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaFacebookF, FaLinkedinIn, FaInstagram, FaYoutube, FaTwitter, FaHome, FaMobile, FaRegCopyright } from 'react-icons/fa';
 import { IoIosMail } from 'react-icons/io';
-
+import { FaFacebook } from "react-icons/fa6";
 export const Footer = () => {
   return (
     <footer className=' ' style={{backgroundColor:'rgba(0,0,0,0.1)'}}>
@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="col-12 col-sm-12 col-lg-3 ">
             <div className="footer-logo">
               <a href="#">
-                <img src="https://www.inrecruit.in/images/logo/fynd-career.png" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrI30YYaYo2x_jjhbhvYY9I6zUO5ek4XOGYQ&s" alt="Inrecruit HR Services Logo" className="img-fluid navbar-brand mx-auto d-block" style={{ maxWidth: '180px' }} />
               </a>
             </div>
             <div className="footer-content">
@@ -20,19 +20,15 @@ export const Footer = () => {
                 Elevate your career with premier overseas job placements at Inrecruit HR Services. Get expert guidance for international job opportunities. Contact us now for tailored career solutions!
               </p>
             </div>
-            <div className="footer-icon d-flex flex-row align-items-center justify-content-around">
-              {[
-                { component: FaFacebookF, className: 'facebook-icon' },
-                { component: FaLinkedinIn, className: 'linkedin-icon' },
-                { component: FaInstagram, className: 'instagram-icon' },
-                { component: FaYoutube, className: 'youtube-icon' },
-                { component: FaTwitter, className: 'twitter-icon' },
-              ].map(({ component: Icon, className }, index) => (
-                <div key={index} className={`social-icon ${className} badge rounded-circle py-2`} style={{ backgroundColor: '#fe5722', color: 'white', fontSize: '18px' }}>
-                  <Icon />
-                </div>
-              ))}
+            <div className="container">
+              <div className="d-flex align-items-center justify-content-evenly">
+            <div className="mb-3 mt-2"><a href=""><span className=" text-white rounded-circle ps-2 pb-2 pt-1 pe-2 fs-6" style={{backgroundColor:'#fe5722',color:'#fff'}}><FaFacebook /></span></a></div> 
+             <div className="mb-3 mt-2"><a href=""><span className=" text-white rounded-circle ps-2 pb-2 pt-1 pe-2 fs-6" style={{backgroundColor:'#fe5722',color:'#fff'}}><FaLinkedinIn /></span></a></div>
+             <div className="mb-3 mt-2"><a href=""><span className=" text-white rounded-circle ps-2 pb-2 pt-1 pe-2 fs-6" style={{backgroundColor:'#fe5722',color:'#fff'}}><FaInstagram /></span></a></div>
+             <div className="mb-3 mt-2"><a href=""><span className=" text-white rounded-circle ps-2 pb-2 pt-1 pe-2 fs-6" style={{backgroundColor:'#fe5722',color:'#fff'}}><FaYoutube /></span></a></div>
+             <div className="mb-3 mt-2"><a href=""><span className=" text-white rounded-circle ps-2 pb-2 pt-1 pe-2 fs-6" style={{backgroundColor:'#fe5722',color:'#fff'}}><FaTwitter /></span></a></div>
             </div>
+              </div>
           </div>
 
           {/* Useful Links */}

@@ -3,7 +3,7 @@ import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
-
+import { Helmet } from 'react-helmet';
 const benefits = [
   "Selecting flight",
   "Booking tickets on discounts",
@@ -51,6 +51,13 @@ const processSteps = [
 const Ticket = () => {
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Ticketing And Emigration</title>
+      <meta name="title" content="Travel Made Easy | InRecruit Ticketing And Emigration Services" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

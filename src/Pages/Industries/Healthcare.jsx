@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom';
 import HealthCare from "../../assets/image/indu/healthcare.jpg"
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
-const Civil = () => {
+import { Helmet } from 'react-helmet';
+const Healthcare = () => {
     return (
-        <div className="Civil">
+        <div className="Healthcare">
+           <div>
+    <Helmet>
+      <title>Healthcare</title>
+      <meta name="title" content="International healthcare jobs | InRecruit" />
+    </Helmet>
+    
+  </div>
             <Header />
             <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">
@@ -264,4 +271,4 @@ const Civil = () => {
     );
 };
 
-export default Civil;
+export default Healthcare;

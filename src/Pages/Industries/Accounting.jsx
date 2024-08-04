@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom';
 import Travel from "../../assets/image/indu/accounting.jpg";
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
-const Civil = () => {
+import { Helmet } from 'react-helmet';
+const  Accounting = () => {
   return (
-    <div className="Civil">
+    <div className="Operational-Accounting">
+       <div>
+    <Helmet>
+      <title>Operational Accounting</title>
+      <meta name="title" content="Accounting and Operations Jobs Abroad  | InRecruit" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">
@@ -253,4 +260,4 @@ const Civil = () => {
   );
 };
 
-export default Civil;
+export default  Accounting;

@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom';
 import Travel from "../../assets/image/indu/education.jpg";
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
-const Civil = () => {
+import { Helmet } from 'react-helmet';
+const Education = () => {
   return (
-    <div className="Civil">
+    <div className="Education">
+       <div>
+    <Helmet>
+      <title>Education</title>
+      <meta name="title" content="International Teaching & Education Jobs" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">
@@ -265,4 +272,4 @@ const Civil = () => {
   );
 };
 
-export default Civil;
+export default Education;

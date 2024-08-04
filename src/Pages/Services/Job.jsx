@@ -3,10 +3,17 @@ import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
 import { GiPolarStar } from "react-icons/gi";
-
+import { Helmet } from 'react-helmet';
 const Job = () => {
   return (
     <div>
+       <div>
+    <Helmet>
+      <title>Job Fair</title>
+      <meta name="title" content="Job Fair | InRecruit - Connecting Talent with Opportunities" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

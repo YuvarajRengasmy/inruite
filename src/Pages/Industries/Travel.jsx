@@ -3,10 +3,17 @@ import { Link } from 'react-router-dom';
 import Travel from "../../assets/image/indu/travel.jpg"
 import Header from '../../Components/Header/Header';
 import Footer from '../../Components/Footer/Footer';
-
+import { Helmet } from 'react-helmet';
 const Civil = () => {
   return (
-    <div className="Civil">
+    <div className="Travel-Tourism">
+       <div>
+    <Helmet>
+      <title>Travel & Tourism</title>
+      <meta name="title" content="Overseas Travel & Tourism Jobs | InRecruit" />
+    </Helmet>
+    
+  </div>
       <Header />
       <section style={{ marginTop: '100px' }}>
   <div className="container-fluid mb-4">

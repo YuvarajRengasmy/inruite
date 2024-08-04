@@ -2,10 +2,17 @@ import React from 'react';
 import Header from '../Components/Header/Header';
 import Footer from '../Components/Footer/Footer';
 import { Link } from 'react-router-dom';
-
+import { Helmet } from 'react-helmet';
 export const Blogs = () => {
   return (
     <>
+     <div>
+    <Helmet>
+      <title>Blogs</title>
+      <meta name="title" content="Global Recruiting Blog | InRecruit" />
+    </Helmet>
+    
+  </div>
       <div>
         <Header />
       </div>
